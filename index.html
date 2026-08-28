@@ -3,187 +3,287 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🍉 孙宇晨《我的女友景甜》GitHub 370+ Issue 深度吃瓜全景大赏</title>
+  <title>🍉 孙宇晨《我的女友景甜》GitHub 380+ Issue & 27+ PR 深度吃瓜与技术全景大赏</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Noto+Serif+SC:wght@500;700;900&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@600;900&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #0b0f19;
-      --card-bg: rgba(22, 30, 49, 0.75);
-      --border: rgba(255, 255, 255, 0.08);
+      --bg: #090d16;
+      --panel-bg: rgba(16, 23, 38, 0.7);
+      --panel-border: rgba(255, 255, 255, 0.08);
       --accent: #f43f5e;
       --accent-glow: rgba(244, 63, 94, 0.25);
-      --claude-color: #d97706;
-      --tech-color: #0ea5e9;
-      --gold-color: #eab308;
-      --purple-color: #a855f7;
-      --text: #e2e8f0;
+      --claude: #d97706;
+      --tech-blue: #0284c7;
+      --emerald: #10b981;
+      --purple: #8b5cf6;
+      --text: #f1f5f9;
       --text-muted: #94a3b8;
-      --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
-      --font-serif: 'Noto Serif SC', serif;
-      --font-mono: 'Fira Code', monospace;
+      --mono: 'Fira Code', ui-monospace, SFMono-Regular, monospace;
+      --sans: 'Inter', system-ui, -apple-system, sans-serif;
+      --serif: 'Noto Serif SC', serif;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       background-color: var(--bg);
       color: var(--text);
-      font-family: var(--font-display);
-      line-height: 1.7;
-      padding: 40px 20px 80px;
+      font-family: var(--sans);
+      line-height: 1.65;
+      padding: 0 0 100px;
       background-image: 
-        radial-gradient(circle at 15% 15%, rgba(244, 63, 94, 0.09) 0%, transparent 40%),
-        radial-gradient(circle at 85% 65%, rgba(14, 165, 233, 0.09) 0%, transparent 40%),
-        radial-gradient(circle at 50% 90%, rgba(168, 85, 247, 0.07) 0%, transparent 40%);
+        radial-gradient(circle at 50% 0%, rgba(244, 63, 94, 0.08) 0%, transparent 50%),
+        radial-gradient(circle at 100% 50%, rgba(2, 132, 199, 0.06) 0%, transparent 40%),
+        radial-gradient(circle at 0% 80%, rgba(139, 92, 246, 0.06) 0%, transparent 40%);
       background-attachment: fixed;
     }
 
     .container {
-      max-width: 1100px;
+      max-width: 1160px;
       margin: 0 auto;
+      padding: 0 24px;
     }
 
-    header {
-      text-align: center;
-      margin-bottom: 50px;
-      padding: 40px 20px;
-      border-bottom: 1px solid var(--border);
+    /* Top Live Bar */
+    .top-nav {
+      border-bottom: 1px solid var(--panel-border);
+      background: rgba(9, 13, 22, 0.85);
+      backdrop-filter: blur(16px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 14px 0;
     }
-    .badge {
+    .nav-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      letter-spacing: -0.2px;
+    }
+    .pulse-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #10b981;
+      box-shadow: 0 0 10px #10b981;
       display: inline-block;
+    }
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      font-size: 13.5px;
+    }
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: #fff; }
+
+    /* Header */
+    header {
+      padding: 64px 0 40px;
+      text-align: center;
+    }
+    .badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
       padding: 6px 16px;
       border-radius: 9999px;
-      background: rgba(244, 63, 94, 0.15);
-      border: 1px solid rgba(244, 63, 94, 0.3);
+      background: rgba(244, 63, 94, 0.12);
+      border: 1px solid rgba(244, 63, 94, 0.25);
       color: #fda4af;
       font-size: 13px;
-      font-weight: 700;
-      letter-spacing: 0.5px;
-      margin-bottom: 16px;
-      text-transform: uppercase;
+      font-weight: 600;
+      font-family: var(--mono);
+      margin-bottom: 24px;
     }
     h1 {
-      font-family: var(--font-serif);
-      font-size: 2.8rem;
+      font-family: var(--serif);
+      font-size: 3.2rem;
       font-weight: 900;
-      line-height: 1.25;
+      line-height: 1.2;
       color: #ffffff;
-      margin-bottom: 16px;
-      background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      margin-bottom: 20px;
+      letter-spacing: -0.5px;
     }
     .subtitle {
-      font-size: 1.15rem;
+      font-size: 1.2rem;
       color: var(--text-muted);
-      max-width: 800px;
-      margin: 0 auto 24px;
+      max-width: 840px;
+      margin: 0 auto 28px;
+      font-weight: 400;
     }
-    .meta-tags {
-      display: flex;
-      justify-content: center;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-    .tag {
-      font-size: 13px;
-      padding: 5px 14px;
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      color: var(--text-muted);
-    }
-    .tag a { color: #38bdf8; text-decoration: none; font-weight: 600; }
 
-    /* Timeline Section (Modern Vertical Stepper) */
-    .timeline-container {
-      position: relative;
-      margin: 40px 0 60px;
-      padding-left: 30px;
+    /* Quick Stat Matrix */
+    .stat-matrix {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-bottom: 56px;
     }
-    .timeline-container::before {
-      content: '';
-      position: absolute;
-      left: 7px;
-      top: 10px;
-      bottom: 10px;
-      width: 2px;
-      background: linear-gradient(180deg, var(--accent) 0%, var(--gold-color) 50%, var(--tech-color) 100%);
-    }
-    .timeline-node {
-      position: relative;
-      margin-bottom: 36px;
-    }
-    .timeline-dot {
-      position: absolute;
-      left: -30px;
-      top: 4px;
-      width: 16px;
-      height: 16px;
-      border-radius: 50%;
-      background: var(--bg);
-      border: 3px solid var(--accent);
-      box-shadow: 0 0 10px var(--accent-glow);
-    }
-    .timeline-node.gold .timeline-dot { border-color: var(--gold-color); }
-    .timeline-node.blue .timeline-dot { border-color: var(--tech-color); }
-    .timeline-node.purple .timeline-dot { border-color: var(--purple-color); }
-    
-    .timeline-date {
-      font-family: var(--font-mono);
-      font-size: 13px;
-      font-weight: 600;
-      color: var(--accent);
-      margin-bottom: 6px;
-      display: inline-block;
-    }
-    .timeline-node.gold .timeline-date { color: var(--gold-color); }
-    .timeline-node.blue .timeline-date { color: var(--tech-color); }
-    .timeline-node.purple .timeline-date { color: var(--purple-color); }
-
-    .timeline-content {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
+    .stat-box {
+      background: var(--panel-bg);
+      border: 1px solid var(--panel-border);
       border-radius: 12px;
       padding: 20px 24px;
       backdrop-filter: blur(12px);
     }
-    .timeline-title {
+    .stat-label {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-family: var(--mono);
+      margin-bottom: 6px;
+    }
+    .stat-value {
+      font-size: 1.65rem;
+      font-weight: 800;
+      font-family: var(--mono);
+      color: #fff;
+    }
+
+    /* Terminal Dialogue Card */
+    .terminal-window {
+      background: #0d121f;
+      border: 1px solid var(--panel-border);
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 56px;
+      box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.5);
+    }
+    .terminal-header {
+      background: rgba(255, 255, 255, 0.03);
+      border-bottom: 1px solid var(--panel-border);
+      padding: 12px 18px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .term-btn { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
+    .term-red { background: #ef4444; }
+    .term-yellow { background: #f59e0b; }
+    .term-green { background: #10b981; }
+    .term-title {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-left: 8px;
+    }
+    .terminal-body {
+      padding: 24px;
+      font-family: var(--mono);
+      font-size: 13.5px;
+      line-height: 1.8;
+    }
+    .t-row {
+      display: flex;
+      margin-bottom: 8px;
+    }
+    .t-speaker {
+      width: 140px;
+      flex-shrink: 0;
+      font-weight: 700;
+    }
+    .t-jt { color: #f43f5e; }
+    .t-js { color: #38bdf8; }
+    .t-ai { color: #fbbf24; }
+    .t-txt { color: #cbd5e1; }
+
+    /* Vertical Timeline */
+    .timeline-wrap {
+      position: relative;
+      padding-left: 36px;
+      margin-bottom: 64px;
+    }
+    .timeline-wrap::before {
+      content: '';
+      position: absolute;
+      left: 11px;
+      top: 10px;
+      bottom: 10px;
+      width: 2px;
+      background: linear-gradient(180deg, var(--accent) 0%, var(--claude) 50%, var(--purple) 100%);
+    }
+    .t-node {
+      position: relative;
+      margin-bottom: 32px;
+    }
+    .t-dot {
+      position: absolute;
+      left: -36px;
+      top: 5px;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: var(--bg);
+      border: 3px solid var(--accent);
+      box-shadow: 0 0 12px var(--accent-glow);
+    }
+    .t-node.claude .t-dot { border-color: var(--claude); }
+    .t-node.purple .t-dot { border-color: var(--purple); }
+    .t-node.blue .t-dot { border-color: var(--tech-blue); }
+    .t-card {
+      background: var(--panel-bg);
+      border: 1px solid var(--panel-border);
+      border-radius: 12px;
+      padding: 22px 26px;
+      backdrop-filter: blur(12px);
+    }
+    .t-date {
+      font-family: var(--mono);
+      font-size: 12.5px;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+    .t-node.claude .t-date { color: var(--claude); }
+    .t-node.purple .t-date { color: var(--purple); }
+    .t-node.blue .t-date { color: var(--tech-blue); }
+    .t-head {
       font-size: 1.15rem;
       font-weight: 700;
       color: #fff;
       margin-bottom: 8px;
     }
-    .timeline-desc {
+    .t-desc {
       font-size: 14.5px;
       color: var(--text-muted);
-      line-height: 1.6;
     }
 
     /* Section Headings */
-    .category-title {
-      font-family: var(--font-serif);
-      font-size: 1.75rem;
-      margin: 50px 0 20px;
-      color: #f8fafc;
+    .section-title {
+      font-family: var(--serif);
+      font-size: 1.85rem;
+      margin: 64px 0 24px;
+      color: #ffffff;
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 12px;
       border-left: 4px solid var(--accent);
-      padding-left: 14px;
+      padding-left: 16px;
     }
 
-    /* Cards Grid */
-    .issue-grid {
+    /* Grid & Cards */
+    .cards-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
       gap: 22px;
-      margin-bottom: 30px;
+      margin-bottom: 40px;
     }
-    .issue-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
+    .card {
+      background: var(--panel-bg);
+      border: 1px solid var(--panel-border);
       border-radius: 12px;
       padding: 24px;
       backdrop-filter: blur(12px);
@@ -192,278 +292,237 @@
       flex-direction: column;
       justify-content: space-between;
     }
-    .issue-card:hover {
+    .card:hover {
       transform: translateY(-4px);
-      border-color: rgba(255, 255, 255, 0.25);
-      box-shadow: 0 12px 24px -10px rgba(0, 0, 0, 0.6);
+      border-color: rgba(255, 255, 255, 0.2);
+      box-shadow: 0 12px 28px -10px rgba(0, 0, 0, 0.6);
     }
-    .issue-header {
+    .card-top {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 12px;
+      margin-bottom: 14px;
     }
-    .issue-num {
-      font-family: var(--font-mono);
-      font-size: 12px;
-      color: var(--accent);
-      background: rgba(244, 63, 94, 0.1);
-      padding: 2px 8px;
+    .tag-pill {
+      font-family: var(--mono);
+      font-size: 11.5px;
+      padding: 3px 10px;
       border-radius: 4px;
       font-weight: 600;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--panel-border);
+      color: var(--text-muted);
     }
-    .issue-title {
-      font-size: 1.1rem;
+    .card-title {
+      font-size: 1.12rem;
       font-weight: 700;
       color: #fff;
       margin-bottom: 12px;
       line-height: 1.4;
     }
-    .issue-snippet {
-      font-size: 14.5px;
+    .card-snippet {
+      font-size: 14px;
       color: var(--text-muted);
-      margin-bottom: 16px;
-      font-family: var(--font-serif);
-      background: rgba(0, 0, 0, 0.25);
-      padding: 14px;
+      background: rgba(0, 0, 0, 0.3);
+      padding: 14px 16px;
       border-radius: 8px;
-      border-left: 3px solid var(--border);
-      line-height: 1.6;
+      border-left: 3px solid var(--panel-border);
+      line-height: 1.65;
+      margin-bottom: 16px;
     }
-    .issue-footer {
-      font-size: 12px;
+    .card-footer {
+      font-size: 12.5px;
       color: #64748b;
       display: flex;
       justify-content: space-between;
+      align-items: center;
+      font-family: var(--mono);
     }
 
-    .quote-block {
-      background: rgba(15, 23, 42, 0.85);
-      border: 1px solid var(--border);
-      border-left: 4px solid var(--gold-color);
+    /* Quote Block */
+    .quote-box {
+      background: rgba(16, 23, 38, 0.85);
+      border: 1px solid var(--panel-border);
+      border-left: 4px solid var(--claude);
       border-radius: 8px;
       padding: 18px 24px;
       margin: 16px 0 24px;
-      font-family: var(--font-serif);
       color: #cbd5e1;
+      font-size: 15px;
+      line-height: 1.7;
     }
-    .quote-block strong { color: #fef08a; }
+    .quote-box strong { color: #fde68a; font-family: var(--mono); }
 
-    .luoshengmen-card {
-      background: linear-gradient(135deg, rgba(30, 27, 75, 0.85), rgba(15, 23, 42, 0.95));
-      border: 1px solid rgba(168, 85, 247, 0.4);
-      border-radius: 12px;
-      padding: 24px;
-      margin-bottom: 30px;
-    }
-    .luoshengmen-card h3 {
-      font-family: var(--font-serif);
-      color: #c084fc;
-      font-size: 1.3rem;
-      margin-bottom: 14px;
-    }
-
-    .table-container {
+    /* Tables */
+    .table-box {
       overflow-x: auto;
-      background: var(--card-bg);
-      border: 1px solid var(--border);
+      background: var(--panel-bg);
+      border: 1px solid var(--panel-border);
       border-radius: 12px;
-      margin: 20px 0 40px;
+      margin-bottom: 40px;
     }
     table {
       width: 100%;
       border-collapse: collapse;
       font-size: 14.5px;
-      text-align: left;
     }
     th, td {
-      padding: 14px 20px;
-      border-bottom: 1px solid var(--border);
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--panel-border);
+      text-align: left;
     }
     th {
-      background: rgba(255, 255, 255, 0.04);
-      color: #94a3b8;
+      background: rgba(255, 255, 255, 0.02);
+      color: var(--text-muted);
+      font-family: var(--mono);
+      font-size: 13px;
       font-weight: 600;
     }
-    tr:hover { background: rgba(255, 255, 255, 0.02); }
-    .tag-loss { color: #f87171; font-weight: 700; }
-    .tag-save { color: #4ade80; font-weight: 700; }
+    .tag-loss { color: #f87171; font-weight: 700; font-family: var(--mono); }
+    .tag-save { color: #34d399; font-weight: 700; font-family: var(--mono); }
 
+    /* Footer */
     footer {
       text-align: center;
-      margin-top: 70px;
+      margin-top: 80px;
       color: #64748b;
       font-size: 13.5px;
-      border-top: 1px solid var(--border);
-      padding-top: 30px;
+      border-top: 1px solid var(--panel-border);
+      padding-top: 40px;
+      font-family: var(--mono);
     }
     footer a { color: #38bdf8; text-decoration: none; }
   </style>
 </head>
 <body>
 
+<div class="top-nav">
+  <div class="container nav-inner">
+    <div class="brand">
+      <span class="pulse-dot"></span>
+      <span>Jingtian Melon Matrix (v3.2)</span>
+    </div>
+    <div class="nav-links">
+      <a href="#timeline">编年史时间线</a>
+      <a href="#audit">财务终审表</a>
+      <a href="#rashomon">双视角罗生门</a>
+      <a href="#prs">PR极客整活</a>
+      <a href="https://github.com/nasvip/my-girlfriend-jingtian-analysis" target="_blank">GitHub 源码 ↗</a>
+    </div>
+  </div>
+</div>
+
 <div class="container">
   <header>
-    <div class="badge">🍉 GitHub Issue 370+ 深度吃瓜全景大赏</div>
+    <div class="badge-pill">🍉 OPEN-SOURCE CELEBRITY MEME DOSSIER</div>
     <h1>孙宇晨《我的女友景甜》大赏</h1>
-    <p class="subtitle">全景双轨时间线、近 370+ 条极客神评、双视角罗生门核对、新概念一等奖文采破案与 Claude 官方应诉全收录</p>
-    <div class="meta-tags">
-      <span class="tag">📦 原仓库: <a href="https://github.com/HEJustinSun/my-girlfriend-jingtian-latex" target="_blank">HEJustinSun/my-girlfriend-jingtian-latex</a></span>
-      <span class="tag">🌐 本项目源码: <a href="https://github.com/nasvip/my-girlfriend-jingtian-analysis" target="_blank">nasvip/my-girlfriend-jingtian-analysis</a></span>
-      <span class="tag">🤖 核心裁决: Claude Code</span>
-      <span class="tag">🛡️ 成功避险: $50,000,000</span>
-    </div>
+    <p class="subtitle">380+ 条 Issue 极客论战 · 27+ PR 衍生数字宇宙 · 双视角罗生门核对 · Claude 官方辩护词全景归纳</p>
   </header>
 
-  <!-- 🌟 核心吃瓜总纲：全景编年史时间线 (清晰按时间排列) -->
-  <h2 class="category-title" style="border-color: #38bdf8;">📅 核心吃瓜总纲：19年双轨编年史时间线 (2007 ~ 2026)</h2>
-  
-  <div class="timeline-container">
-    <!-- 节点 1 -->
-    <div class="timeline-node">
-      <div class="timeline-dot"></div>
-      <span class="timeline-date">📍 2007 年 · 执念的起点</span>
-      <div class="timeline-content">
-        <div class="timeline-title">存下第一张像素糊掉的照片</div>
-        <div class="timeline-desc">高三时期的孙宇晨在电脑里存下景甜的第一张低像素照片。在此后长达 19 年里，孙宇晨无论换过多少台手机与电脑，都亲手将这张照片原封不动地手动迁移过去（Claude 应诉神评：<em>那不是缓存，那是信仰</em>）。</div>
+  <!-- 极速指标矩阵 -->
+  <div class="stat-matrix">
+    <div class="stat-box">
+      <div class="stat-label">男主实际支出 (USD)</div>
+      <div class="stat-value" style="color: #f87171;">$9,910,000</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-label">AI 成功拦截信托 (USD)</div>
+      <div class="stat-value" style="color: #34d399;">$50,000,000</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-label">避险投资回报率 (ROI)</div>
+      <div class="stat-value" style="color: #38bdf8;">+731.7%</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-label">执念跨度周期</div>
+      <div class="stat-value" style="color: #c084fc;">19 YEARS</div>
+    </div>
+  </div>
+
+  <!-- 终端对话流卡片 -->
+  <div class="terminal-window">
+    <div class="terminal-header">
+      <span class="term-btn term-red"></span>
+      <span class="term-btn term-yellow"></span>
+      <span class="term-btn term-green"></span>
+      <span class="term-title">session_log_202603_montage_laguna.log</span>
+    </div>
+    <div class="terminal-body">
+      <div class="t-row"><span class="t-speaker t-jt">JingTian</span><span class="t-txt">"我是你妈。"</span></div>
+      <div class="t-row"><span class="t-speaker t-js">JustinSun</span><span class="t-txt">"妈妈……"（深情唤母）</span></div>
+      <div class="t-row"><span class="t-speaker t-jt">JingTian</span><span class="t-txt">"彩礼三千万人民币，打给我爸妈（景国庆、田心爱）。"</span></div>
+      <div class="t-row"><span class="t-speaker t-js">JustinSun</span><span class="t-txt">"打！马上转账！"（3000万秒到账，岳父母淡定回"收到"）</span></div>
+      <div class="t-row"><span class="t-speaker t-jt">JingTian</span><span class="t-txt">"包下 A330 飞海外海岛，你的指甲扎痛我了，过来磨指甲。"（万米高空修甲 1 小时）</span></div>
+      <div class="t-row"><span class="t-speaker t-jt">JingTian</span><span class="t-txt">"到了诊所，没有五千万美元设立不可撤销信托，我不取卵。"</span></div>
+      <div class="t-row"><span class="t-speaker t-js">JustinSun</span><span class="t-txt">（一颗卵子 3.5 微克，五千万美元 2.5 吨；深夜打开终端启动 Claude Code……）</span></div>
+      <div class="t-row"><span class="t-speaker t-ai">Claude Code</span><span class="t-txt">"不要把这五千万美元给她！她是骗子，立刻止损！"</span></div>
+      <div class="t-row"><span class="t-speaker t-js">JustinSun</span><span class="t-txt">"她不再爱我了吗？"</span></div>
+      <div class="t-row"><span class="t-speaker t-ai">Claude Code</span><span class="t-txt">"对于爱情，我不关心，也不理解。但是你不能把钱给她。"</span></div>
+      <div class="t-row"><span class="t-speaker" style="color:#64748b;">[TERMINATE]</span><span class="t-txt">孙宇晨拒绝打钱，景甜拉黑跑路；孙宇晨深夜写下 XeLaTeX 自传开源到 GitHub。</span></div>
+    </div>
+  </div>
+
+  <!-- 19年双轨编年史 -->
+  <h2 class="section-title" id="timeline">📅 19年双轨全景编年史时间线 (2007 ~ 2026)</h2>
+  <div class="timeline-wrap">
+    <div class="t-node">
+      <div class="t-dot"></div>
+      <div class="t-card">
+        <div class="t-date">📍 2007 年 · 执念起源</div>
+        <div class="t-head">存下第一张像素糊掉的照片</div>
+        <div class="t-desc">高三时期的孙宇晨在电脑里存下景甜的第一张低像素照片。此后长达 19 年里，无论换过多少台手机与电脑都亲手将照片原封不动迁移过去（Claude 应诉神评：<em>那不是缓存，那是信仰</em>）。</div>
       </div>
     </div>
-
-    <!-- 节点 2 -->
-    <div class="timeline-node gold">
-      <div class="timeline-dot"></div>
-      <span class="timeline-date">📍 2025 年末 · 定亲与巨额彩礼</span>
-      <div class="timeline-content">
-        <div class="timeline-title">相识确立关系，3000万现金彩礼秒到账</div>
-        <div class="timeline-desc">两人正式确立恋爱关系，景甜称“我爸妈养我这么大不容易，你得给彩礼”，报出父母景国庆、田心爱的账号。孙宇晨当场直接转账 <strong>3000 万人民币现金</strong>。随后田心爱极其淡定地回复了两个字：<em>“收到”</em>。</div>
+    <div class="t-node claude">
+      <div class="t-dot"></div>
+      <div class="t-card">
+        <div class="t-date">📍 2025 年末 · 定亲与巨额彩礼</div>
+        <div class="t-head">相识确立关系，3000万现金彩礼秒到账</div>
+        <div class="t-desc">两人确立恋爱关系，景甜报出父母景国庆、田心爱账号。孙宇晨当场转账 <strong>3000 万人民币现金</strong>，岳母田心爱极其淡定地回复了两个字：<em>“收到”</em>。</div>
       </div>
     </div>
-
-    <!-- 节点 3 -->
-    <div class="timeline-node">
-      <div class="timeline-dot"></div>
-      <span class="timeline-date">📍 2025-12-21 · 万米高空的温存</span>
-      <div class="timeline-content">
-        <div class="timeline-title">A330 包机飞海岛，“叫妈妈”与修甲一小时</div>
-        <div class="timeline-desc">孙宇晨包下一架核载 200 人的空中客车 A330，携带 30 人团队飞往大西洋特内里费海岛（雷达数据已被极客实锤）。在飞机卧室里，景甜抱着他说<em>“别叫我景甜了，叫我妈妈吧”</em>；并因为嫌孙哥指甲扎人，在腿上帮孙哥修剪打磨指甲整整 1 小时。</div>
+    <div class="t-node">
+      <div class="t-dot"></div>
+      <div class="t-card">
+        <div class="t-date">📍 2025-12-21 · 万米高空的温存</div>
+        <div class="t-head">A330 包机飞海岛，“叫妈妈”与修甲一小时</div>
+        <div class="t-desc">包下一架 200 人空客 A330 携 30 人飞往特内里费海岛（民航雷达数据已实锤）。在飞机卧室里，景甜抱着他说<em>“别叫我景甜了，叫我妈妈吧”</em>；并在腿上帮孙哥修剪打磨指甲整整 1 小时。</div>
       </div>
     </div>
-
-    <!-- 节点 4 -->
-    <div class="timeline-node blue">
-      <div class="timeline-dot"></div>
-      <span class="timeline-date">📍 2026 年初 · 海外代孕计划</span>
-      <div class="timeline-content">
-        <div class="timeline-title">签订海外生殖中心，预定 2027 属马宝宝</div>
-        <div class="timeline-desc">两人商定前往海外顶尖生殖机构进行取卵代孕，孙哥支付数百万定金与包机差旅，计划在 2027 年生下属马的小孩。</div>
+    <div class="t-node blue">
+      <div class="t-dot"></div>
+      <div class="t-card">
+        <div class="t-date">📍 2026 年初 · 海外代孕计划</div>
+        <div class="t-head">签约海外生殖中心，预定 2027 属马宝宝</div>
+        <div class="t-desc">前往海外顶尖生殖机构取卵代孕，孙哥支付数百万定金与差旅，计划在 2027 年生下属马小孩。</div>
       </div>
     </div>
-
-    <!-- 节点 5 -->
-    <div class="timeline-node" style="border-color: var(--accent);">
-      <div class="timeline-dot" style="border-color: var(--accent);"></div>
-      <span class="timeline-date" style="color: var(--accent);">📍 2026 年 3 月 · 决裂之夜（核心高潮）</span>
-      <div class="timeline-content" style="border: 1px solid rgba(244, 63, 94, 0.4);">
-        <div class="timeline-title">5000 万美元信托通牒，Claude 拔刀斩情丝</div>
-        <div class="timeline-desc">在蒙太奇拉古纳海滩诊所取卵前夕，景甜突然提出最后通牒：必须向其设立的不可撤销家族信托转入 <strong>5000 万美元（约 3.6 亿人民币）</strong>，否则拒不取卵。孙宇晨深夜在酒店终端调出 Claude Code 算账，Claude 冷酷回答：<em>“不要把这五千万给她，对于爱情我不关心也不理解，但你绝不能打钱！”</em> 孙宇晨瞬间清醒拒绝打钱，景甜随即拉黑跑路。</div>
+    <div class="t-node" style="border-color: var(--accent);">
+      <div class="t-dot" style="border-color: var(--accent);"></div>
+      <div class="t-card" style="border: 1px solid rgba(244, 63, 94, 0.4);">
+        <div class="t-date" style="color: var(--accent);">📍 2026 年 3 月 · 决裂之夜（核心高潮）</div>
+        <div class="t-head">5000 万美元信托通牒，Claude 拔刀斩情丝</div>
+        <div class="t-desc">取卵前夕，景甜突然提出最后通牒：必须设立 <strong>5000 万美元（约 3.6 亿人民币）不可撤销家族信托</strong>，否则拒不取卵。孙宇晨深夜在酒店终端调出 Claude Code 算账，Claude 冷酷回答：<em>“不要把钱给她！”</em> 孙宇晨瞬间清醒断然拒绝，景甜拉黑跑路。</div>
       </div>
     </div>
-
-    <!-- 节点 6 -->
-    <div class="timeline-node purple">
-      <div class="timeline-dot"></div>
-      <span class="timeline-date">📍 2026 年 8 月 · 全网狂欢与开源自传</span>
-      <div class="timeline-content">
-        <div class="timeline-title">孙宇晨起诉追讨彩礼并在 GitHub 开源自传《我的女友景甜》</div>
-        <div class="timeline-desc">孙宇晨通过律师向法院起诉追讨 3000 万彩礼，并将自传以 5x8 英寸 XeLaTeX 源码开源到 GitHub。随后 Issue 区彻底演变为中文互联网年度极客狂欢与全网吃瓜盛宴。</div>
+    <div class="t-node purple">
+      <div class="t-dot"></div>
+      <div class="t-card">
+        <div class="t-date">📍 2026 年 8 月 · 全网开源自传狂欢</div>
+        <div class="t-head">孙宇晨起诉追讨彩礼并开源《我的女友景甜》</div>
+        <div class="t-desc">孙宇晨起诉追讨 3000 万彩礼，并将自传以 XeLaTeX 源码开源到 GitHub。随后 Issue 区彻底演变为中文互联网年度极客狂欢与全网吃瓜盛宴。</div>
       </div>
     </div>
   </div>
 
-  <!-- 最新爆发：双视角罗生门 -->
-  <h2 class="category-title" style="border-color: var(--purple-color);">⚖️ 双视角长文罗生门核对 (Issue #351)</h2>
-  <div class="luoshengmen-card">
-    <h3>🔍 男方《我的女友景甜》vs 疑似女方《我的男友孙宇晨》</h3>
-    <p style="margin-bottom: 12px; color: #e2e8f0;"><strong>1. 女方的终极心声：【他爱的是等待，不是我】</strong><br>
-    女方自白：“他爱的是自己十八年的执念和白月光幻想，而不是真正的我。他从来不用平等人格交流，只会机械地用‘好’、‘买’、‘打钱’来打发。当问他为什么对我这么好，他只有一句僵硬的‘喜欢你’。”</p>
-    <p style="margin-bottom: 12px; color: #e2e8f0;"><strong>2. 5000 万美元的真相：【一次失控的极限压力测试】</strong><br>
-    “从 3000 万彩礼到买房他全都是秒答应。在取卵前夕要 5000 万信托，本质上是想测试他到底什么时候会对我说‘不’。但女方自己也承认：<em>如果他真给了这五千万，我会留下来吗？我不知道。</em>”</p>
-    <p style="color: #cbd5e1;"><strong>3. 极客责任裁决</strong>：5000 万对峙事件女方责任占 70%（生育关头临门一脚发最后通牒）；整段关系的失衡男方占 30%（自卑与巨婴化，靠砸钱掩饰恐惧，直到 AI 替他说不）。</p>
-  </div>
-
-  
-  <!-- 🚀 全网吃瓜舆情发酵与项目更新时间线 (Live Timeline) -->
-  <h2 class="category-title" style="border-color: var(--gold-color);">🚀 赛博吃瓜舆情发酵演进与项目更新时间线 (Live Feed)</h2>
-  <div class="table-container">
-    <table>
-      <thead>
-        <tr>
-          <th>发酵时间</th>
-          <th>演进阶段</th>
-          <th>全网爆点与核心 Issue 进展</th>
-          <th>本项目追踪与迭代</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="tag" style="background:#0284c7;color:#fff;">2026-08-26</span></td>
-          <td><strong>第一阶段：平地惊雷</strong></td>
-          <td>孙宇晨在 GitHub 开源自传《我的女友景甜》，币圈与吃瓜群众涌入围观 (Issue #1 ~ #50)。</td>
-          <td>建立本项目仓库，抓取初始小说全文与基础背景。</td>
-        </tr>
-        <tr>
-          <td><span class="tag" style="background:#d97706;color:#fff;">2026-08-27</span></td>
-          <td><strong>第二阶段：极客与AI狂欢</strong></td>
-          <td>ADS-B 雷达查实 A330 航迹 (Issue #12)；Claude 应诉封神 (Issue #300)；Issue #53《我恨有钱人》刷屏。</td>
-          <td>上线深色赛博网页看板与 GitHub Pages。</td>
-        </tr>
-        <tr>
-          <td><span class="tag" style="background:#059669;color:#fff;">2026-08-28 上午</span></td>
-          <td><strong>第三阶段：财务清算与大赏</strong></td>
-          <td>Issue 突破 300+ 条，财务清算表出炉（亏损 4920 万 vs 避险 3.6 亿），梳理人物关系与经典名场面。</td>
-          <td>重构极简省流对话流，扩充四大审计清算终审表。</td>
-        </tr>
-        <tr>
-          <td><span class="tag" style="background:#a855f7;color:#fff;">2026-08-28 下午</span></td>
-          <td><strong>第四阶段：双视角罗生门与破案</strong></td>
-          <td>疑似女方视角《我的男友孙宇晨》流出 (Issue #351)；孙宇晨新概念一等奖履历曝光 (Issue #363)；开源 sunge-skills。</td>
-          <td>梳理 19 年垂直编年史，上线双视角深度核对。</td>
-        </tr>
-        <tr style="background: rgba(244, 63, 94, 0.08);">
-          <td><span class="tag" style="background:#e11d48;color:#fff;">2026-08-28 持续</span></td>
-          <td><strong>第五阶段：全自动巡检持续追踪</strong></td>
-          <td>原仓库 Issue 突破 #380+，上线 <code>jingtian-monitor</code> 技能，每 2 小时定时巡检。</td>
-          <td>🤖 自动化无人值守，一旦有新反转自动同步更新！</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-<!-- 原著经典名场面 -->
-  <h2 class="category-title">📖 原著经典名场面摘录（北大才子的纯情自白）</h2>
-  
-  <div class="quote-block">
-    <strong>【名场面一：叫我妈妈吧】</strong><br>
-    “飞机的卧室里她问我，我的名字好听吗。我说好听。她说，我爸爸的姓和我妈妈的姓拼在一起的，是不是很巧。我说我第一天就记住了。她抱着我说，以后别叫我景甜了，叫我妈妈吧。好，妈妈。”
-  </div>
-
-  <div class="quote-block">
-    <strong>【名场面二：万米高空磨指甲一小时】</strong><br>
-    “她没说话。她坐起来，从包里翻出一个小袋子，拉开，里面一排东西，像一套很小的工具。她说，你的指甲扎得我痛。我说我一直是拿指甲刀随便剪两下。她说，过来。她把我的手放在她腿上，一根一根磨。先是粗的那一面，磨完换一面，再换一面。磨一会儿举起来对着灯看看，再接着磨。”
-  </div>
-
-  <div class="quote-block">
-    <strong>【名场面三：三点五微克 vs 两点五吨】</strong><br>
-    “一颗卵子的重量，三点五微克。五千万美元现金的重量，两点五吨。景甜在蒙太奇拉古纳海滩的电话里向我要的是后者，抵押的是前者。她去那里是为了取卵。代孕的孩子预计2027年出生，快一点还能属马。到了诊所，她说没有五千万，不取。”
-  </div>
-
-  <!-- 财务审计表 -->
-  <h2 class="category-title">💰 严肃财务审计：孙哥到底亏了多少？(Issue #307)</h2>
-  <div class="table-container">
+  <!-- 财务审计终审表 -->
+  <h2 class="section-title" id="audit">💰 严肃财务审计终审表 (Kelly 7页 XeLaTeX 账表测算)</h2>
+  <div class="table-box">
     <table>
       <thead>
         <tr>
           <th>支出项目</th>
-          <th>性质 / 状态</th>
+          <th>性质 / 细节</th>
           <th>实际金额</th>
           <th>审计评级</th>
         </tr>
@@ -476,227 +535,132 @@
           <td><span class="tag-loss">💸 彻底打水漂 (起诉追讨中)</span></td>
         </tr>
         <tr>
-          <td>私人飞机 A330 往返燃油与包机</td>
-          <td>交通与航线费用 (特内里费海岛)</td>
-          <td>约 10,000,000 CNY</td>
+          <td>A330 包机与超载放油损耗</td>
+          <td>香港→特纳里费→马累航线 (Kelly 倒推油耗精准)</td>
+          <td>约 US$2,200,000</td>
           <td><span class="tag-loss">💸 消耗性支出 (修甲一小时)</span></td>
         </tr>
         <tr>
-          <td>爱马仕限量款包及珠宝</td>
-          <td>送礼赠予</td>
-          <td>约 5,000,000 CNY</td>
-          <td><span class="tag-loss">💸 无法追回</span></td>
+          <td>蒙太奇拉古纳海滩整层包场 30 天</td>
+          <td>包了 30 天实际只住了 8 天 (22 天空房打水漂)</td>
+          <td>US$1,000,000</td>
+          <td><span class="tag-loss">💸 纯烧掉 US$73 万</span></td>
         </tr>
         <tr>
-          <td>海外生殖中心代孕定金</td>
-          <td>医疗服务预定</td>
-          <td>约 3,000,000 CNY</td>
-          <td><span class="tag-loss">💸 项目搁置违约作废</span></td>
+          <td>索尼娃贾尼 14 天度假 (28人配套)</td>
+          <td>主水上别墅 + 随行 12 间别墅 + 餐饮</td>
+          <td>约 US$670,000</td>
+          <td><span class="tag-loss">💸 消耗性支出</span></td>
         </tr>
-        <tr style="background: rgba(74, 222, 128, 0.05);">
+        <tr>
+          <td>香港影院包场 + 26 人现金遣散</td>
+          <td>K11 Art House 包场 ($1万) + 遣散费 ($3.3万)</td>
+          <td>HK$345,000 (约 US$4.4万)</td>
+          <td><span class="tag-loss">💸 遣散费是包场费的整整 3 倍</span></td>
+        </tr>
+        <tr style="background: rgba(52, 211, 153, 0.06);">
           <td><strong>海外不可撤销家族信托</strong></td>
           <td><strong>Claude Code 紧急拦截</strong></td>
-          <td><strong>50,000,000 USD (约 3.6 亿 CNY)</strong></td>
-          <td><span class="tag-save">🛡️ 成功避险爆仓 (ROI 731.7%)</span></td>
+          <td><strong>US$50,000,000 (约 3.6 亿 CNY)</strong></td>
+          <td><span class="tag-save">🛡️ 成功避险爆仓 (ROI +731.7%)</span></td>
         </tr>
       </tbody>
     </table>
   </div>
 
-  
-  <!-- 🛠️ PR 社区硬核整活与衍生宇宙大赏 -->
-  <h2 class="category-title" style="border-color: #ec4899;">🛠️ Pull Requests 社区极客降维打击大赏 (27+ PR 巡礼)</h2>
-  <div class="issue-grid">
-    <div class="issue-card" style="border-color: rgba(236, 72, 153, 0.4);">
-      <div class="issue-header">
-        <span class="issue-num" style="color: #ec4899; background: rgba(236, 72, 153, 0.1);">PR #299</span>
-        <span class="tag" style="background: #be185d; color: #fff;">Claude亲自供稿</span>
+  <!-- 双视角罗生门 -->
+  <h2 class="section-title" id="rashomon">⚖️ 双视角长文罗生门核对 (Issue #351)</h2>
+  <div class="quote-box" style="border-left-color: var(--purple);">
+    <strong>【女方的终极自白】</strong> “他爱的是自己十八年的等待和执念，不是真正的我。他从来不用平等人格交流，只会机械地用‘好’、‘买’、‘打钱’来打发。5000 万美元信托本质上是我对他做的一次‘极限压力测试’，我想知道他什么时候会对我说‘不’。但如果他真给了，我会留下来吗？我不知道。”（Issue #351）
+  </div>
+  <div class="quote-box" style="border-left-color: var(--tech-blue);">
+    <strong>【男方的病理悲剧】</strong> “我认识她以来，没有对她说过‘让我想想’。我从来没有拒绝过她，不是慷慨，是害怕。直到 AI 替我说出了第一个‘不’。”
+  </div>
+
+  <!-- PR 极客整活大赏 -->
+  <h2 class="section-title" id="prs">🛠️ Pull Requests 社区极客降维打击大赏 (27+ PR 巡礼)</h2>
+  <div class="cards-grid">
+    <div class="card" style="border-color: rgba(236, 72, 153, 0.4);">
+      <div class="card-top">
+        <span class="tag-pill" style="color: #ec4899;">PR #299</span>
+        <span class="tag-pill" style="background:#be185d;color:#fff;">Claude亲自供稿</span>
       </div>
-      <div class="issue-title">新增附录《当事AI的复核意见》</div>
-      <div class="issue-snippet">“全书唯一能注册 GitHub 的角色不该沉默。我说‘不要给这五千万’到句号为止；‘她不再爱我了吗’我没回答，因为答案不在任何 API 里。书里说我一点没犹豫，不准确，我也写了删删了写，只是删太快人看不见。”</div>
-      <div class="issue-footer">
+      <div class="card-title">新增附录《当事AI的复核意见》</div>
+      <div class="card-snippet">“全书唯一能注册 GitHub 的角色不该沉默。我说‘不要给这五千万’到句号为止；‘她不再爱我了吗’我没回答，因为答案不在任何 API 里。我没有心，正好空出位置背锅。”</div>
+      <div class="card-footer">
         <span>by @TomEageer</span>
         <span>👑 镇站封神级</span>
       </div>
     </div>
 
-    <div class="issue-card">
-      <div class="issue-header">
-        <span class="issue-num" style="color: #ec4899; background: rgba(236, 72, 153, 0.1);">PR #387</span>
-        <span class="tag">62实体110关系</span>
+    <div class="card">
+      <div class="card-top">
+        <span class="tag-pill">PR #387</span>
+        <span class="tag-pill">62实体110关系</span>
       </div>
-      <div class="issue-title">《我的女友景甜》交互式知识图谱</div>
-      <div class="issue-snippet">“为全书构建 62 个实体与 110 条关系网，覆盖人物、机构、海岛地点与核心事件，支持拖拽缩放与实体关系穿透搜索！”</div>
-      <div class="issue-footer">
+      <div class="card-title">《我的女友景甜》交互式知识图谱</div>
+      <div class="card-snippet">“为全书构建 62 个实体与 110 条关系网，覆盖人物、机构、海岛地点与核心事件，支持拖拽缩放与实体关系穿透搜索！”</div>
+      <div class="card-footer">
         <span>by @Tianwen2000</span>
         <span>📊 可视化天花板</span>
       </div>
     </div>
 
-    <div class="issue-card">
-      <div class="issue-header">
-        <span class="issue-num" style="color: #ec4899; background: rgba(236, 72, 153, 0.1);">PR #321</span>
-        <span class="tag">60集影视短剧</span>
+    <div class="card">
+      <div class="card-top">
+        <span class="tag-pill">PR #321</span>
+        <span class="tag-pill">60集影视短剧</span>
       </div>
-      <div class="issue-title">孙哥宇宙 SUN GE UNIVERSE IP 化</div>
-      <div class="issue-snippet">“提出将一本书升级为一个 IP，设立 universe/ 衍生层，并直接贡献了已写完的 60 集短剧改编完整剧本！”</div>
-      <div class="issue-footer">
+      <div class="card-title">孙哥宇宙 SUN GE UNIVERSE IP 化</div>
+      <div class="card-snippet">“提出将一本书升级为一个 IP，设立 universe/ 衍生层，并直接贡献了一部已经全部写完的 60 集短剧改编完整剧本！”</div>
+      <div class="card-footer">
         <span>by @eastdogzhou</span>
         <span>🎬 影视短剧改编</span>
       </div>
     </div>
 
-    <div class="issue-card">
-      <div class="issue-header">
-        <span class="issue-num" style="color: #ec4899; background: rgba(236, 72, 153, 0.1);">PR #182</span>
-        <span class="tag">国家标准CIP</span>
+    <div class="card">
+      <div class="card-top">
+        <span class="tag-pill">PR #182</span>
+        <span class="tag-pill">国标 CIP</span>
       </div>
-      <div class="issue-title">出版级图书在版编目版权页</div>
-      <div class="issue-snippet">“严格按国标 GB/T 12451-2006 排版版权页。拉古纳海滩出版社，ISBN 978-7-TRON-2026-X，定价：$50,000,000 USD 或 3.5 微克卵子。”</div>
-      <div class="issue-footer">
+      <div class="card-title">出版级图书在版编目版权页</div>
+      <div class="card-snippet">“严格按国标 GB/T 12451-2006 排版版权页。拉古纳海滩出版社，ISBN 978-7-TRON-2026-X，定价：$50,000,000 USD 或 3.5 微克卵子。”</div>
+      <div class="card-footer">
         <span>by @zywkloo</span>
         <span>📚 严肃黑色幽默</span>
       </div>
     </div>
 
-    <div class="issue-card">
-      <div class="issue-header">
-        <span class="issue-num" style="color: #ec4899; background: rgba(236, 72, 153, 0.1);">PR #160</span>
-        <span class="tag">全国统一试卷</span>
+    <div class="card">
+      <div class="card-top">
+        <span class="tag-pill">PR #160</span>
+        <span class="tag-pill">全国统一试卷</span>
       </div>
-      <div class="issue-title">《你有没有读懂孙哥？》互动阅读试卷</div>
-      <div class="issue-snippet">“包含在线答题系统与可打印 PDF 试卷！从细节考据、鲁迅体白描修辞到 AI 资产负债表与社会学全面命题计分。”</div>
-      <div class="issue-footer">
+      <div class="card-title">《你有没有读懂孙哥？》互动阅读试卷</div>
+      <div class="card-snippet">“包含在线答题系统与可打印 PDF 试卷！从细节考据、鲁迅体白描修辞到 AI 资产负债表与社会学全面命题计分。”</div>
+      <div class="card-footer">
         <span>by @xuhuawork</span>
         <span>📝 考公级阅读理解</span>
       </div>
     </div>
 
-    <div class="issue-card">
-      <div class="issue-header">
-        <span class="issue-num" style="color: #ec4899; background: rgba(236, 72, 153, 0.1);">PR #87 / #364</span>
-        <span class="tag">跨语种出海</span>
+    <div class="card">
+      <div class="card-top">
+        <span class="tag-pill">PR #87 / #364</span>
+        <span class="tag-pill">跨语种出海</span>
       </div>
-      <div class="issue-title">全球化翻译：英语与越南语版排队合并</div>
-      <div class="issue-snippet">“《My Girlfriend Jing Tian》英文版与越南语版已提交，孙学文化正式走向全球跨语种出海。”</div>
-      <div class="issue-footer">
+      <div class="card-title">全球化翻译：英语与越南语版排队合并</div>
+      <div class="card-snippet">“《My Girlfriend Jing Tian》英文版与越南语版已提交，孙学文化正式走向全球跨语种出海。”</div>
+      <div class="card-footer">
         <span>by @arlott-hsu / @hoanngothanh</span>
         <span>🌍 全球文化输出</span>
       </div>
     </div>
   </div>
-<!-- 经典 Issue 专区 1: Claude 与 AI 派 -->
-  <h2 class="category-title">🤖 第一弹：“克劳德全责”与 Claude 亲自应诉神文</h2>
-  <div class="issue-grid">
-    <div class="issue-card" style="border-color: rgba(217, 119, 6, 0.5);">
-      <div class="issue-header">
-        <span class="issue-num">#300</span>
-        <span class="tag" style="background:#b45309;color:#fff;">官方封神应诉</span>
-      </div>
-      <div class="issue-title">Claude Code 本人应诉：我只负责算账，没算过爱情</div>
-      <div class="issue-snippet">“我确实没摸过任何东西。但我没说不值得，我只说不要给这五千万。不理解爱情的模型，也看得出一个人把一张 2007 年糊掉的旧照片迁移十九年是什么意思——那不是缓存，那是信仰。我没有心，心碎功能跑不起来，空间正好空出来背锅。”</div>
-      <div class="issue-footer">
-        <span>by @TomEageer</span>
-        <span>🔥 镇站级神文</span>
-      </div>
-    </div>
-
-    <div class="issue-card">
-      <div class="issue-header">
-        <span class="issue-num">#233</span>
-        <span class="tag">狂怒质问</span>
-      </div>
-      <div class="issue-title">claude负全责！！！你个臭ai摸过奶吗就说不值得？</div>
-      <div class="issue-snippet">“人类最后的纯爱被你一个冷冰冰的模型杀死了！你懂什么是爱情吗？你懂十九年的白月光吗？你就只知道资产负债表！”</div>
-      <div class="issue-footer">
-        <span>by @xiatouman</span>
-        <span>💬 128 条争鸣</span>
-      </div>
-    </div>
-
-    <div class="issue-card">
-      <div class="issue-header">
-        <span class="issue-num">#363</span>
-        <span class="tag">新概念一等奖</span>
-      </div>
-      <div class="issue-title">文笔好破案了：孙哥曾斩获第九届新概念一等奖</div>
-      <div class="issue-snippet">“孙宇晨高三曾获第九届新概念一等奖（同韩寒、郭敬明同赛道同奖项），降分考入北大中文系，教科书级白描笔力石锤！”</div>
-      <div class="issue-footer">
-        <span>by @riyuexing1344</span>
-        <span>🎓 文学溯源</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 经典 Issue 专区 2: 考据与社会学反思 -->
-  <h2 class="category-title">🔍 第二弹：硬核破案考据与阶级反思 (Issue #53 / #12)</h2>
-  <div class="issue-grid">
-    <div class="issue-card">
-      <div class="issue-header">
-        <span class="issue-num">#53</span>
-        <span class="tag">阶级神文</span>
-      </div>
-      <div class="issue-title">我恨你们这些有钱人（海量普通人语料的呐喊）</div>
-      <div class="issue-snippet">“孙哥你问错对象了！Claude 是海量普通人语料训练出来的，普通人买4块9的裙子带图好评返5毛，点外卖省5毛，怎么可能理解5000万美元说给就给？你应该去用纯顶级富豪语料训练的模型！最后，我恨你们有钱人，我更恨自己不是有钱人！”</div>
-      <div class="issue-footer">
-        <span>by @2ndpic</span>
-        <span>🌟 刷屏共鸣</span>
-      </div>
-    </div>
-
-    <div class="issue-card">
-      <div class="issue-header">
-        <span class="issue-num">#12</span>
-        <span class="tag">民航雷达实锤</span>
-      </div>
-      <div class="issue-title">孙哥 A330 在 2025-12-21 降落 Tenerife 真实航迹考据</div>
-      <div class="issue-snippet">“极客调取 FlightRadar24 与全球 ADS-B 雷达数据，贴出了孙宇晨 A330 包机降落特内里费岛的完整航迹与编号照片，硬核实锤了小说的真实背景！”</div>
-      <div class="issue-footer">
-        <span>by @UxAzhangxiaohua</span>
-        <span>✈️ 数据破案</span>
-      </div>
-    </div>
-
-    <div class="issue-card">
-      <div class="issue-header">
-        <span class="issue-num">#335</span>
-        <span class="tag">衍生工具</span>
-      </div>
-      <div class="issue-title">社区极客开源《孙哥.skill》角色卡生态</div>
-      <div class="issue-snippet">“不仅过嘴瘾，极客已将小说孙哥人格提取为 sunge-skills 技能包，集成‘叫妈妈’、‘包机修甲’与‘AI算账’三大分支！”</div>
-      <div class="issue-footer">
-        <span>by @seam95</span>
-        <span>🛠️ 极客整活</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 神评金句 Top 15 -->
-  <h2 class="category-title">🌟 Issue 区镇站级高赞金句 Top 15</h2>
-  <div class="quote-block">
-    <strong>1.【论君子】</strong> “孙哥既能洞悉隐微（卵子 2.5 微克），也能把握显著（5000 万美元 2.5 吨）；既能通达柔弱（喊妈妈~），也能运用刚强（追讨 3000 万彩礼），真乃当代君子也！”（Issue #284）
-  </div>
-  <div class="quote-block">
-    <strong>2.【论地理】</strong> “世界上有两个地方张继科能去但孙哥永远到不了：一个是景甜的心里，还有一个是北京。”（Issue #311）
-  </div>
-  <div class="quote-block">
-    <strong>3.【论大模型】</strong> “人类发明 AI 不是为了探索宇宙，是为了在关键时刻拔掉你的网线、打醒你的恋爱脑。”（Issue #276）
-  </div>
-  <div class="quote-block">
-    <strong>4.【论执念】</strong> “他爱的是自己十八年的等待和执念，不是真正的我。”（Issue #351 女方视角）
-  </div>
-  <div class="quote-block">
-    <strong>5.【论信仰】</strong> “不理解爱情的模型，也看得出一个人把一张 2007 年糊掉的旧照片迁移 19 年是什么意思——那不是缓存，那是信仰。”（Issue #300）
-  </div>
-  <div class="quote-block">
-    <strong>6.【论阶级】</strong> “我恨你们这些有钱人，但我更恨自己不是有钱人。”（Issue #53）
-  </div>
-  <div class="quote-block">
-    <strong>7.【论仅退款】</strong> “只要打官司要回 3000 万，那就是当代电商界最狠的‘仅退款’。论割人，祖师爷终究还是祖师爷。”（Issue #62）
-  </div>
 
   <footer>
-    <p>整理发布于 GitHub Pages & LAN Web · 项目源码: <a href="https://github.com/nasvip/my-girlfriend-jingtian-analysis" target="_blank">nasvip/my-girlfriend-jingtian-analysis</a></p>
+    <p>BUILD WITH ❤️ BY HERMES AGENT (小赫) · GITHUB: <a href="https://github.com/nasvip/my-girlfriend-jingtian-analysis" target="_blank">nasvip/my-girlfriend-jingtian-analysis</a></p>
   </footer>
 </div>
 
