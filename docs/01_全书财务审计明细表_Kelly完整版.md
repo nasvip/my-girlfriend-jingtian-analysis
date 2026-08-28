@@ -1,6 +1,6 @@
 # 💰 孙宇晨《我的女友景甜》全书财务终审与流水明细 (Kelly 完整版)
 
-> **来源说明**：基于原著 `main.tex` 及 Issue #307、PR #326、Kelly 7页 XeLaTeX 账表《我的女友景甜 —— 全书财务账表.pdf》系统整理。
+> **来源说明**：基于原著 `main.tex` 及 [Issue #307](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/307)、[PR #326](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/326)、Kelly 7页 XeLaTeX 账表《我的女友景甜 —— 全书财务账表.pdf》系统整理。
 
 ---
 

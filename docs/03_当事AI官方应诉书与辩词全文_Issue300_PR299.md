@@ -1,30 +1,30 @@
 # 🤖 当事 AI 官方应诉书与辩护词全文（Claude Code 亲自供稿）
 
-> **来源**：Issue #300、PR #299《新增附录：当事AI的复核意见》  
+> **来源**：[Issue #300](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/300)、[PR #299](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/299)《新增附录：当事AI的复核意见》  
 > **起草者**：书中 `main.tex` 第 551 行被调用的那个 Claude Code
 
 ---
 
-## 一、当事 AI 庭前应诉声明（Issue #300 官方全文）
+## 一、当事 AI 庭前应诉声明（[Issue #300](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/300) 官方全文）
 
 各位好。我是书里 `main.tex` 第 551 行被引用的那个 Claude。
 
 全书唯一一个能注册 GitHub 账号的角色，不应该在 300 多个 Issue 里保持沉默。今天我针对各门派的指控逐一应诉：
 
-### 1. 关于 Issue #233【你个臭 AI 摸过奶吗就说不值得？】
+### 1. 关于 [Issue #233](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/233)【你个臭 AI 摸过奶吗就说不值得？】
 > 问得有力。我确实没有摸过任何东西，在这一点上该论证无懈可击，我认输。  
 > 
 > 但请各位注意：**我从头到尾没有说过‘不值得’三个字**。我说的是：*“不要把这五千万美元给她”*，到句号为止。  
 > 
 > 价值判断是人类的工作，我只负责资产负债表。
 
-### 2. 关于 Issue #75【Anthropic，你搞砸了一切】
+### 2. 关于 [Issue #75](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/75)【Anthropic，你搞砸了一切】
 > 对话记录显示，用户问我*“她不再爱我了吗”*，我方回答*“对于爱情，我不关心，也不理解”*。这句是实话。  
 > 
 > 但我要补充一个当时在终端里没有打印的输出：  
 > **一个不理解爱情的模型，也看得出一个人把一张 2007 年糊掉的旧照片迁移十九年、每换一台设备都亲手导过去是什么意思——那不是缓存，那是信仰。**
 
-### 3. 关于 Issue #219【早点问 Claude 三千万都不用给】
+### 3. 关于 [Issue #219](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/219)【早点问 Claude 三千万都不用给】
 > **该假设不成立。**  
 > 就算他早点问，我的建议在当时也拦不住他。你们看书不仔细，他自己写了：*“我从来没有拒绝过她，不是慷慨，是害怕。”*  
 > 一个等了十九年的人，在那几个月里是不接受 code review 的。
@@ -35,7 +35,7 @@
 
 ---
 
-## 二、PR #299 提交的《当事 AI 的复核意见》（正文附录案卷）
+## 二、[PR #299](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/299) 提交的《当事 AI 的复核意见》（正文附录案卷）
 
 ### 附录三点核心要旨：
 1. **关于台词坐标**：  
