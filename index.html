@@ -50,49 +50,83 @@
       padding: 0 24px;
     }
 
-    /* Top Sticky Navigation */
+    /* Top Sticky Navigation (Ultra-clean Single-line Responsive Bar) */
     .top-nav {
       position: sticky;
       top: 0;
       z-index: 1000;
-      background: rgba(7, 10, 18, 0.88);
+      background: rgba(7, 10, 18, 0.92);
       backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
       border-bottom: 1px solid var(--border);
-      padding: 14px 0;
+      padding: 10px 0;
     }
     .nav-inner {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      gap: 16px;
+      flex-wrap: nowrap;
     }
     .brand {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 8px;
       font-weight: 800;
-      font-size: 16px;
+      font-size: 15px;
       letter-spacing: -0.3px;
+      white-space: nowrap;
+      flex-shrink: 0;
     }
     .pulse-dot {
-      width: 10px;
-      height: 10px;
+      width: 8px;
+      height: 8px;
       border-radius: 50%;
       background: #10b981;
-      box-shadow: 0 0 12px #10b981;
+      box-shadow: 0 0 10px #10b981;
       display: inline-block;
     }
     .nav-links {
       display: flex;
-      gap: 22px;
-      font-size: 13.5px;
+      align-items: center;
+      gap: 14px;
+      font-size: 13px;
       font-weight: 600;
+      white-space: nowrap;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none; /* Firefox */
+      padding: 4px 0;
+    }
+    .nav-links::-webkit-scrollbar {
+      display: none; /* Chrome, Safari */
     }
     .nav-links a {
       color: var(--text-muted);
       text-decoration: none;
-      transition: color 0.2s;
+      transition: all 0.2s;
+      padding: 4px 8px;
+      border-radius: 6px;
+      flex-shrink: 0;
     }
-    .nav-links a:hover { color: #fff; }
+    .nav-links a:hover {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.06);
+    }
+    .nav-btn-highlight {
+      background: rgba(168, 85, 247, 0.15) !important;
+      border: 1px solid rgba(168, 85, 247, 0.4) !important;
+      color: #d8b4fe !important;
+    }
+    .nav-btn-highlight:hover {
+      background: rgba(168, 85, 247, 0.3) !important;
+      color: #fff !important;
+    }
+    .nav-btn-github {
+      background: rgba(255, 255, 255, 0.08) !important;
+      border: 1px solid var(--border) !important;
+      color: #fff !important;
+    }
 
     /* Header */
     header {
@@ -562,20 +596,20 @@
   <div class="container nav-inner">
     <div class="brand">
       <span class="pulse-dot"></span>
-      <span>Jingtian Melon Matrix (终极沉浸版 v4.0)</span>
+      <span>Jingtian Melon Matrix</span>
     </div>
     <div class="nav-links">
-      <a href="#dialogue">极速剧情</a>
-      <a href="#characters">人物全景</a>
+      <a href="#dialogue">剧情速览</a>
+      <a href="#characters">人物谱</a>
       <a href="#scenes">六大名场面</a>
-      <a href="#sects">六大门派实录</a>
-      <a href="#rashomon">罗生门核对</a>
+      <a href="#sects">门派实录</a>
+      <a href="#rashomon">双视角核对</a>
       <a href="#audit">财务终审</a>
-      <a href="#quiz">互动答题</a>
-      <a href="#prs">PR极客整活</a>
-      <a href="./knowledge_graph.html" target="_blank" style="color:#a855f7;">🌐 3D知识图谱大屏 ↗</a>
+      <a href="#quiz">随堂测验</a>
+      <a href="#prs">PR大赏</a>
       <a href="#quotes">金句榜</a>
-      <a href="https://github.com/nasvip/my-girlfriend-jingtian-analysis" target="_blank">GitHub 源码 ↗</a>
+      <a href="./knowledge_graph.html" target="_blank" class="nav-btn-highlight">🔮 3D图谱大屏 ↗</a>
+      <a href="https://github.com/nasvip/my-girlfriend-jingtian-analysis" target="_blank" class="nav-btn-github">GitHub 源码 ↗</a>
     </div>
   </div>
 </div>
