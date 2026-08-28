@@ -1,6 +1,6 @@
 # 💰 孙宇晨《我的女友景甜》全书财务终审与流水明细 (Kelly 完整版)
 
-> **来源说明**：基于原著 `main.tex` 及 [Issue #307](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/307)、[PR #326](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/326)、Kelly 7页 XeLaTeX 账表《我的女友景甜 —— 全书财务账表.pdf》系统整理。
+> **来源说明**：基于原著 `main.tex` 及 [Issue [#307](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/307)](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/307)、[PR [#326](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/326)](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/326)、Kelly 7页 XeLaTeX 账表《我的女友景甜 —— 全书财务账表.pdf》系统整理。
 
 ---
 
@@ -91,3 +91,11 @@
 2. **2011 年羽绒服**（¥150，犹豫三天） vs **影院门口递给陌生人的一沓现金**（约 ¥9,200，零秒决策）——**金额翻了 61 倍，决策时间从三天变成零秒**。
 3. **最贵与最废**：他付出最大的一笔是 3000 万彩礼，浪费最大的一笔是蒙太奇 22 个空房日（US$73万）——**最贵的一笔和最废的一笔，都不是给景甜本人的**。
 4. **唯一没花钱的礼物**：景甜在万米高空给他磨了一个小时指甲，是他唯一留着、也是唯一**再也复制不出来**的东西（*“她说要顺着一个方向，我忘了是哪个方向”*）。
+
+
+---
+
+### 🔗 快速导航与返回
+- 🏠 [返回项目 README 首页](../README.md)
+- 🌐 [打开在线沉浸式看板](https://nasvip.github.io/my-girlfriend-jingtian-analysis/)
+- 📦 [访问 GitHub 仓库主页](https://github.com/nasvip/my-girlfriend-jingtian-analysis)

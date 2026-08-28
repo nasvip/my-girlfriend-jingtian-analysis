@@ -1,10 +1,10 @@
 # ✈️ 极客硬核技术考据集：民航 ADS-B 航迹、TeX 排版 Bug 与版权页
 
-> **来源**：[Issue #12](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/12)、#57、#229、#317、[PR #182](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/182)、#387
+> **来源**：[Issue [#12](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/12)](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/12)、[#57](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/57)、[#229](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/229)、[#317](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/317)、[PR [#182](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/182)](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/182)、[#387](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/387)
 
 ---
 
-## 一、民航 ADS-B 雷达数据实锤（[Issue #12](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/12)）
+## 一、民航 ADS-B 雷达数据实锤（[Issue [#12](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/12)](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/12)）
 
 针对原著中提及的包机行程，专业极客调取了 FlightRadar24 与全球 ADS-B 开源无线电抓取网络数据：
 - **执飞日期**：2025-12-21
@@ -15,7 +15,7 @@
 
 ---
 
-## 二、A330 超载放油与配平物理考据（[Issue #229](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/229) / Kelly 勘误）
+## 二、A330 超载放油与配平物理考据（[Issue [#229](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/229)](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/229) / Kelly 勘误）
 
 原著助理解释：*“A330 是按两百人设计的，我们只有三十个人，太轻了，起飞配平不对，所以要多加油加到够重，到了地方再放掉。”*
 
@@ -26,7 +26,7 @@
 
 ---
 
-## 三、XeLaTeX 2.37 倍双重行距排版 Bug 修复（[Issue #317](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/317)）
+## 三、XeLaTeX 2.37 倍双重行距排版 Bug 修复（[Issue [#317](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/317)](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/317)）
 
 专业 TeX 工程师在阅读源码时抓出的技术瑕疵：
 - **Bug 根因**：`main.tex` 中 `\BodySingleLeading` 已经硬编码定义为 17.3pt，但正文宏 `\StoryParagraph` 在调用时又叠加了 `\setstretch{1.3}`；
@@ -35,7 +35,7 @@
 
 ---
 
-## 四、出版级 GB/T 12451-2006 CIP 版权页（[PR #182](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/182)）
+## 四、出版级 GB/T 12451-2006 CIP 版权页（[PR [#182](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/182)](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/182)）
 
 社区为《我的女友景甜》定制的标准图书在版编目版权页：
 - **书名**：《我的女友景甜》
@@ -43,3 +43,11 @@
 - **出版者**：蒙太奇拉古纳海滩出版社
 - **书号**：ISBN 978-7-TRON-2026-X
 - **定价**：$50,000,000 USD 或 3.5 μg 卵子（支持 TRX / USDT）
+
+
+---
+
+### 🔗 快速导航与返回
+- 🏠 [返回项目 README 首页](../README.md)
+- 🌐 [打开在线沉浸式看板](https://nasvip.github.io/my-girlfriend-jingtian-analysis/)
+- 📦 [访问 GitHub 仓库主页](https://github.com/nasvip/my-girlfriend-jingtian-analysis)
