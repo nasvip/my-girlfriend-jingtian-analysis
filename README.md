@@ -121,7 +121,7 @@ Claude Code（无情）："对于爱情，我不关心，也不理解。但是�
 
 | 追踪时间 | 发酵阶段 | 关键爆点与 Issue 进展 | 本项目更新动作 |
 |---|---|---|---|
-| **2026-08-26** | **第一阶段：平地惊雷** | 孙宇晨在 GitHub 开源自传小说 `my-girlfriend-jingtian-latex`，币圈与吃瓜群众开始涌入围观（[Issue #1](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/1) ~ #50）。 | 建立本项目，抓取初始小说与基础背景分析。 |
+| **2026-08-26** | **第一阶段：平地惊雷** | 孙宇晨在 GitHub 开源自传小说 `my-girlfriend-jingtian-latex`，币圈与吃瓜群众开始涌入围观（[Issue #1](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/1) ~ [#50](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/50)）。 | 建立本项目，抓取初始小说与基础背景分析。 |
 | **2026-08-27** | **第二阶段：极客与AI狂欢** | 极客调取 ADS-B 雷达实锤 A330 航迹（[Issue #12](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/12)）；Claude 亲自应诉辩词封神（[Issue #300](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/300)）；[Issue #53](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/53)《我恨有钱人》刷屏。 | 搭建局域网与 GitHub Pages 沉浸式深色网页看板。 |
 | **2026-08-28 上午** | **第三阶段：财务清算与大赏** | Issue 突破 300+ 条，财务清算表出炉（亏损 4920 万 vs 避险 3.6 亿），全网开始梳理人物关系与经典名场面。 | 全面扩充 6 大核心板块、财务终审表与神评 Top 15。 |
 | **2026-08-28 下午** | **第四阶段：双视角罗生门与破案** | 疑似女方视角《我的男友孙宇晨》流出（[Issue #351](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/351)）；孙宇晨新概念一等奖履历曝光（[Issue #363](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/363)）；极客开源 `sunge-skills`。 | 梳理 19 年垂直编年史时间轴，新增双视角深度核对。 |
@@ -270,14 +270,14 @@ GitHub 极客们不仅看戏，还迅速基于孙宇晨的人格特征孵化出�
 
 ### 9.2 第二派：【孙学文学鉴赏派】—— 叫妈妈、剪指甲与当代鲁迅体
 
-- **“叫妈妈”与辈分悖论（[Issue #271](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/271), #243）**：
+- **“叫妈妈”与辈分悖论（[Issue #271](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/271), [#243](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/243)）**：
   - *“你管我叫割，我管你叫妈，咱俩各论各的。”*
   - *“网友灵魂拷问：孙哥管景甜叫妈，景甜背上纹着运动员，那孙哥按辈分该管张继科叫什么？后爹还是舅姥爷？”*
   - *“孙哥叫妈妈是为了走未成年人游戏充值退款通道，商业鬼才！”*
-- **修甲一小时（[Issue #283](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/283), #265）**：
+- **修甲一小时（[Issue #283](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/283), [#265](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/265)）**：
   - 小说里极其细腻地描写了万米高空上景甜帮孙宇晨剪指甲的情节。
   - 网友吐槽：*“花 3.2 亿包机就为了找个私人修甲师，《阿嬷手作》正统非遗传承人实锤了。”*
-- **北大中文系文学功底（[Issue #257](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/257), #318）**：
+- **北大中文系文学功底（[Issue #257](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/257), [#318](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/318)）**：
   - 小说名句：*“我没有哭。我一直在等我哭。”*
   - 网友膜拜：*“这句式深得鲁迅《秋夜》真传（‘我家门前有两棵树，一棵是枣树，另一棵也是枣树’），当代伤痕文学巅峰！”*
 
@@ -333,7 +333,7 @@ GitHub 极客们不仅看戏，还迅速基于孙宇晨的人格特征孵化出�
 10. **【论未成年退款】** *“孙哥叫妈妈是为了走未成年人游戏充值退款通道。”*（[Issue #255](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/255)）
 11. **【论仅退款】** *“只要打官司要回 3000 万，那就是全网最强‘仅退款’。”*（[Issue #62](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/62)）
 12. **【论非遗传承】** *“花 3.2 亿包机只为了享受修指甲一小时，《阿嬷手作》正统传承人。”*（[Issue #283](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/283)）
-13. **【论新概念一等奖】** *“写得了新概念，演得了苦情戏，炒得了币，融得了资——当代跨界文豪孙宇晨。”*（[Issue #357](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/357), #363）
+13. **【论新概念一等奖】** *“写得了新概念，演得了苦情戏，炒得了币，融得了资——当代跨界文豪孙宇晨。”*（[Issue #357](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/357), [#363](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/363)）
 14. **【论体育生】** *“文科生北大毕业，理科生币圈割钱，最后还是被体育生版本超模爆杀。”*（[Issue #97](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/97)）
 15. **【论终极省钱】** *“早点接入 Claude API，连三千万彩礼都不用给。”*（[Issue #219](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/219)）
 
