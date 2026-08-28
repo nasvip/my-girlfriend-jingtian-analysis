@@ -22,26 +22,29 @@
 
 ## 📑 目录导航
 
-1. [🍉 极速吃瓜：一分钟看懂狗血剧情（对话流）](#1--极速吃瓜一分钟看懂狗血剧情对话流)
-2. [👥 核心出场人物关系谱（孙甜宇宙关系网）](#2--核心出场人物关系谱孙甜宇宙关系网)
-3. [📅 故事编年史与真金白银时间线（2007~2026）](#3--故事编年史与真金白银时间线20072026)
-4. [💰 深度财务审计：孙哥到底被割了多少？（资产清算终审表）](#4--深度财务审计孙哥到底被割了多少资产清算终审表)
-5. [📖 原著经典名场面原文摘录（北大才子的纯情自白）](#5--原著经典名场面原文摘录北大才子的纯情自白)
-6. [⚖️ 最新爆发：双视角罗生门长文深度核对（[Issue #351](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/351)）](#6-️-最新爆发双视角罗生门长文深度核对issue-351)
-7. [🎓 文学破案：孙哥为何文笔封神？第九届新概念一等奖履历曝光（[Issue #363](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/363)）](#7--文学破案孙哥为何文笔封神第九届新概念一等奖履历曝光issue-363)
-8. [🛠️ 社区极客生态狂欢：衍生开源项目《孙哥.skill》（[Issue #335](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/335)）](#8-️-社区极客生态狂欢衍生开源项目孙哥skillissue-335)
-9. [🔥 Issue 区六大门派深度吃瓜实录（全网狂欢）](#9--issue-区六大门派深度吃瓜实录全网狂欢)
-   - 9.1 [第一派：【克劳德全责门】—— AI 拔刀斩情丝与 Claude 亲自应诉神文](#91-第一派克劳德全责门-ai-拔刀斩情丝与-claude-亲自应诉神文)
-   - 9.2 [第二派：【孙学文学鉴赏派】—— 叫妈妈、剪指甲与当代鲁迅体](#92-第二派孙学文学鉴赏派-叫妈妈剪指甲与当代鲁迅体)
-   - 9.3 [第三派：【硬核破案考据派】—— ADS-B 航迹实锤与纹身之谜](#93-第三派硬核破案考据派-ads-b-航迹实锤与纹身之谜)
-   - 9.4 [第四派：【TeX 极客技术挑刺派】—— 双重行距 Bug 与 XeLaTeX 编译](#94-第四派tex-极客技术挑刺派-双重行距-bug-与-xelatex-编译)
-   - 9.5 [第五派：【阶级痛恨与富豪语料派】—— 我恨你们这些有钱人](#95-第五派阶级痛恨与富豪语料派-我恨你们这些有钱人)
-   - 9.6 [第六派：【币圈韭菜复仇派】—— 祖师爷的“仅退款”神话](#96-第六派币圈韭菜复仇派-祖师爷的仅退款神话)
-10. [🌟 370+ Issue 镇站级高赞神评金句 Top 15](#10--370-issue-镇站级高赞神评金句-top-15)
-11. [💡 深度总结：一场科技、资本与荷尔蒙的社会学荒诞剧](#11--深度总结一场科技资本与荷尔蒙的社会学荒诞剧)
+1. [🍉 极速吃瓜：一分钟看懂狗血剧情（对话流）](#section-1)
+2. [👥 核心出场人物关系谱（孙甜宇宙关系网）](#section-2)
+3. [📅 故事编年史与真金白银时间线（2007~2026）](#section-3)
+   - 3.2 [🚀 赛博吃瓜舆情演进与项目追踪时间线 (Live Timeline)](#section-3-2)
+4. [💰 深度财务审计：孙哥到底被割了多少？（资产清算终审表）](#section-4)
+5. [📖 原著经典名场面原文摘录（北大才子的纯情自白）](#section-5)
+6. [⚖️ 最新爆发：双视角罗生门长文深度核对 (Issue #351)](#section-6)
+7. [🎓 文学破案：孙哥为何文笔封神？第九届新概念一等奖履历曝光 (Issue #363)](#section-7)
+8. [🛠️ 社区极客生态狂欢：衍生开源项目《孙哥.skill》 (Issue #335)](#section-8)
+   - 8.5 [🛠️ Pull Requests 社区硬核整活与衍生宇宙大赏 (PRs 巡礼)](#section-8-5)
+9. [🔥 Issue 区六大门派深度吃瓜实录（全网狂欢）](#section-9)
+   - 9.1 [第一派：【克劳德全责门】—— AI 拔刀斩情丝与 Claude 亲自应诉神文](#section-9-1)
+   - 9.2 [第二派：【孙学文学鉴赏派】—— 叫妈妈、剪指甲与当代鲁迅体](#section-9-2)
+   - 9.3 [第三派：【硬核破案考据派】—— ADS-B 航迹实锤与纹身之谜](#section-9-3)
+   - 9.4 [第四派：【TeX 极客技术挑刺派】—— 双重行距 Bug 与 XeLaTeX 编译](#section-9-4)
+   - 9.5 [第五派：【阶级痛恨与富豪语料派】—— 我恨你们这些有钱人](#section-9-5)
+   - 9.6 [第六派：【币圈韭菜复仇派】—— 祖师爷的“仅退款”神话](#section-9-6)
+10. [🌟 380+ Issue 镇站级高赞神评金句 Top 15](#section-10)
+11. [💡 深度总结：一场科技、资本与荷尔蒙的社会学荒诞剧](#section-11)
 
 ---
 
+<a id="section-1"></a>
 ## 1. 🍉 极速吃瓜：一分钟看懂狗血剧情（对话流）
 
 来自 [Issue #281](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/281) 的顶级精炼版对话流：
@@ -66,6 +69,7 @@ Claude Code（无情）："对于爱情，我不关心，也不理解。但是�
 
 ---
 
+<a id="section-2"></a>
 ## 2. 👥 核心出场人物关系谱（孙甜宇宙关系网）
 
 ```
@@ -96,6 +100,7 @@ Claude Code（无情）："对于爱情，我不关心，也不理解。但是�
 
 ---
 
+<a id="section-3"></a>
 ## 3. 📅 故事编年史与真金白银时间线（2007~2026）
 
 根据正文及 [Issue #12](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/12)、#307、#351 的航空航迹与财务交叉还原：
@@ -115,6 +120,7 @@ Claude Code（无情）："对于爱情，我不关心，也不理解。但是�
 
 ---
 
+<a id="section-3-2"></a>
 ## 3.2 🚀 赛博吃瓜舆情演进与项目追踪时间线 (Live Timeline)
 
 除了原著故事里的历史，**GitHub 上这场全网极客的狂欢本身也是一场实时进行中的大戏**。我们记录了这场吃瓜盛宴的发酵进程与本项目的追踪节点：
@@ -127,6 +133,7 @@ Claude Code（无情）："对于爱情，我不关心，也不理解。但是�
 | **2026-08-28 下午** | **第四阶段：双视角罗生门与破案** | 疑似女方视角《我的男友孙宇晨》流出（[Issue #351](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/351)）；孙宇晨新概念一等奖履历曝光（[Issue #363](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/363)）；极客开源 `sunge-skills`。 | 梳理 19 年垂直编年史时间轴，新增双视角深度核对。 |
 | **2026-08-28 持续** | **第五阶段：无人值守持续追踪** | 原仓库 Issue 突破 #380+，上线 `jingtian-monitor` 技能与每 2 小时定时巡检机制。 | 全自动探测增量，持续捕捉最新神评与反转爆点。 |
 
+<a id="section-4"></a>
 ## 4. 💰 深度财务审计：孙哥到底被割了多少？（资产清算终审表）
 
 网友在 **[Issue #307](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/307)《完整财务账表：男主到底被花掉了多少钱》** 中进行了四大审计行级别的专业清算：
@@ -155,6 +162,7 @@ Claude Code（无情）："对于爱情，我不关心，也不理解。但是�
 
 ---
 
+<a id="section-5"></a>
 ## 5. 📖 原著经典名场面原文摘录（北大才子的纯情自白）
 
 正文 `main.tex` 中被无数网友反复引用的几大名场面：
@@ -189,7 +197,8 @@ Claude Code（无情）："对于爱情，我不关心，也不理解。但是�
 
 ---
 
-## 6. ⚖️ 最新爆发：双视角罗生门长文深度核对（[Issue #351](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/351)）
+<a id="section-6"></a>
+## 6. ⚖️ 最新爆发：双视角罗生门长文深度核对 (Issue #351)
 
 [Issue #351](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/351) 中爆出了结合男方《我的女友景甜》与疑似女方长文《我的男友孙宇晨》的系统性交叉对质。两篇文章在事件细节上高度吻合（电影院、磨指甲、3000万彩礼、代孕、5000万电话），但**底层动机与心理认知完全相反**：
 
@@ -207,7 +216,8 @@ Claude Code（无情）："对于爱情，我不关心，也不理解。但是�
 
 ---
 
-## 7. 🎓 文学破案：孙哥为何文笔封神？第九届新概念一等奖履历曝光（[Issue #363](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/363)）
+<a id="section-7"></a>
+## 7. 🎓 文学破案：孙哥为何文笔封神？第九届新概念一等奖履历曝光 (Issue #363)
 
 不少网友在读完 `main.tex` 后惊呼“币圈大佬怎么文笔比专业作家还强”、“克制的伤痕文学写得太地道了”。
 
@@ -217,7 +227,8 @@ Claude Code（无情）："对于爱情，我不关心，也不理解。但是�
 
 ---
 
-## 8. 🛠️ 社区极客生态狂欢：衍生开源项目《孙哥.skill》（[Issue #335](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/335)）
+<a id="section-8"></a>
+## 8. 🛠️ 社区极客生态狂欢：衍生开源项目《孙哥.skill》 (Issue #335)
 
 GitHub 极客们不仅看戏，还迅速基于孙宇晨的人格特征孵化出了开源 AI 工具生态：
 - **`sunge-skills` 开源角色卡（[Issue #335](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/335)）**：
@@ -229,6 +240,7 @@ GitHub 极客们不仅看戏，还迅速基于孙宇晨的人格特征孵化出�
 
 ---
 
+<a id="section-8-5"></a>
 ## 8.5 🛠️ Pull Requests 社区硬核整活与衍生宇宙大赏 (PRs 巡礼)
 
 如果说 Issue 区是网友的嘴炮狂欢，那么 **Pull Requests 区则是硬核极客与艺术家的“降维打击”**！目前社区已提交 27+ 个高能 PR，直接把一本私人自传硬生生扩展成了一个庞大的开源数字 IP 宇宙：
@@ -244,8 +256,10 @@ GitHub 极客们不仅看戏，还迅速基于孙宇晨的人格特征孵化出�
 | **[PR #347](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/347)** | `@schrodinger01` | **Add justin-sun-essay Agent Skill**<br>开源 Agent 模仿孙宇晨北大文笔写作的 Prompt Skill 技能包。 | 🤖 文学 AI 赋能 |
 | **[PR #87](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/87) / #364**| `@arlott-hsu` 等 | **英文版 (My Girlfriend Jing Tian) & 越南语版 (main-vi.tex)**<br>孙学走向国际化，全球化跨语种翻译已在 PR 区排队合并。 | 🌍 全球文化输出 |
 
+<a id="section-9"></a>
 ## 9. 🔥 Issue 区六大门派深度吃瓜实录（全网狂欢）
 
+<a id="section-9-1"></a>
 ### 9.1 第一派：【克劳德全责门】—— AI 拔刀斩情丝与 Claude 亲自应诉神文
 
 - **[Issue #233](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/233)《claude负全责！！！你个臭ai摸过奶吗就说不值得？》**：
@@ -268,6 +282,7 @@ GitHub 极客们不仅看戏，还迅速基于孙宇晨的人格特征孵化出�
 
 ---
 
+<a id="section-9-2"></a>
 ### 9.2 第二派：【孙学文学鉴赏派】—— 叫妈妈、剪指甲与当代鲁迅体
 
 - **“叫妈妈”与辈分悖论（[Issue #271](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/271), [#243](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/243)）**：
@@ -283,6 +298,7 @@ GitHub 极客们不仅看戏，还迅速基于孙宇晨的人格特征孵化出�
 
 ---
 
+<a id="section-9-3"></a>
 ### 9.3 第三派：【硬核破案考据派】—— ADS-B 航迹实锤与纹身之谜
 
 - **[Issue #12](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/12)《孙哥的A330在2025-12-21出现在 Tenerife South的记录》**：
@@ -292,6 +308,7 @@ GitHub 极客们不仅看戏，还迅速基于孙宇晨的人格特征孵化出�
 
 ---
 
+<a id="section-9-4"></a>
 ### 9.4 第四派：【TeX 极客技术挑刺派】—— 双重行距 Bug 与 XeLaTeX 编译
 
 - **[Issue #317](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/317)《[LaTeX] 正文排版存在多处技术问题》**：
@@ -303,6 +320,7 @@ GitHub 极客们不仅看戏，还迅速基于孙宇晨的人格特征孵化出�
 
 ---
 
+<a id="section-9-5"></a>
 ### 9.5 第五派：【阶级痛恨与富豪语料派】—— 我恨你们这些有钱人
 
 - **[Issue #53](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/53)《我恨你们这些有钱人》**（神级长文）：
@@ -312,6 +330,7 @@ GitHub 极客们不仅看戏，还迅速基于孙宇晨的人格特征孵化出�
 
 ---
 
+<a id="section-9-6"></a>
 ### 9.6 第六派：【币圈韭菜复仇派】—— 祖师爷的“仅退款”神话
 
 - **[Issue #224](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/224)《孙割，把5000w还给兄弟们吧》**：币圈韭菜泪目留言：“你在波场割我们的时候心狠手辣，转头给女明星送几千万，快把彩礼打官司要回来分给韭菜！”
@@ -319,7 +338,8 @@ GitHub 极客们不仅看戏，还迅速基于孙宇晨的人格特征孵化出�
 
 ---
 
-## 10. 🌟 370+ Issue 镇站级高赞神评金句 Top 15
+<a id="section-10"></a>
+## 10. 🌟 380+ Issue 镇站级高赞神评金句 Top 15
 
 1. **【论君子之道】** *“孙哥既能洞悉隐微（卵子 2.5 微克），也能把握显著（5000 万美元 2.5 吨）；既能通达柔弱（喊妈妈~），也能运用刚强（追讨 3000 万彩礼），真乃当代君子也！”*（[Issue #284](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/284)）
 2. **【论地理与心理】** *“世界上有两个地方张继科能去但孙哥永远到不了：一个是景甜的心里，还有一个是北京。”*（[Issue #311](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/311)）
@@ -339,6 +359,7 @@ GitHub 极客们不仅看戏，还迅速基于孙宇晨的人格特征孵化出�
 
 ---
 
+<a id="section-11"></a>
 ## 11. 💡 深度总结：一场科技、资本与荷尔蒙的社会学荒诞剧
 
 孙宇晨的这份《我的女友景甜》及其 GitHub Issue 区，构成了 AI 时代最荒诞也最生动的文化切片：
