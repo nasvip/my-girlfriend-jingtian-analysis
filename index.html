@@ -96,54 +96,76 @@
     }
     .tag a { color: #38bdf8; text-decoration: none; font-weight: 600; }
 
-    .timeline-card {
-      background: linear-gradient(145deg, rgba(30, 41, 59, 0.85), rgba(15, 23, 42, 0.95));
-      border: 1px solid rgba(244, 63, 94, 0.3);
-      box-shadow: 0 10px 30px -10px var(--accent-glow);
-      border-radius: 16px;
-      padding: 30px;
-      margin-bottom: 48px;
+    /* Timeline Section (Modern Vertical Stepper) */
+    .timeline-container {
+      position: relative;
+      margin: 40px 0 60px;
+      padding-left: 30px;
     }
-    .timeline-card h2 {
-      font-family: var(--font-serif);
-      color: #fb7185;
-      font-size: 1.45rem;
-      margin-bottom: 20px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
+    .timeline-container::before {
+      content: '';
+      position: absolute;
+      left: 7px;
+      top: 10px;
+      bottom: 10px;
+      width: 2px;
+      background: linear-gradient(180deg, var(--accent) 0%, var(--gold-color) 50%, var(--tech-color) 100%);
     }
-    .dialogue-flow {
-      display: grid;
-      gap: 14px;
+    .timeline-node {
+      position: relative;
+      margin-bottom: 36px;
     }
-    .dialogue-item {
-      display: flex;
-      align-items: baseline;
-      gap: 12px;
-      padding: 12px 18px;
-      background: rgba(0, 0, 0, 0.3);
-      border-radius: 8px;
-      font-size: 15px;
+    .timeline-dot {
+      position: absolute;
+      left: -30px;
+      top: 4px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: var(--bg);
+      border: 3px solid var(--accent);
+      box-shadow: 0 0 10px var(--accent-glow);
     }
-    .speaker {
-      font-weight: 700;
-      padding: 3px 10px;
-      border-radius: 4px;
-      font-size: 12px;
-      min-width: 90px;
-      text-align: center;
+    .timeline-node.gold .timeline-dot { border-color: var(--gold-color); }
+    .timeline-node.blue .timeline-dot { border-color: var(--tech-color); }
+    .timeline-node.purple .timeline-dot { border-color: var(--purple-color); }
+    
+    .timeline-date {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 6px;
+      display: inline-block;
     }
-    .sp-jt { background: #be185d; color: #fff; }
-    .sp-js { background: #0369a1; color: #fff; }
-    .sp-claude { background: #b45309; color: #fff; }
-    .sp-parents { background: #059669; color: #fff; }
-    .sp-result { background: #475569; color: #fff; }
+    .timeline-node.gold .timeline-date { color: var(--gold-color); }
+    .timeline-node.blue .timeline-date { color: var(--tech-color); }
+    .timeline-node.purple .timeline-date { color: var(--purple-color); }
 
+    .timeline-content {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 24px;
+      backdrop-filter: blur(12px);
+    }
+    .timeline-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+    .timeline-desc {
+      font-size: 14.5px;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    /* Section Headings */
     .category-title {
       font-family: var(--font-serif);
       font-size: 1.75rem;
-      margin: 45px 0 20px;
+      margin: 50px 0 20px;
       color: #f8fafc;
       display: flex;
       align-items: center;
@@ -152,6 +174,7 @@
       padding-left: 14px;
     }
 
+    /* Cards Grid */
     .issue-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
@@ -283,7 +306,7 @@
   <header>
     <div class="badge">🍉 GitHub Issue 370+ 深度吃瓜全景大赏</div>
     <h1>孙宇晨《我的女友景甜》大赏</h1>
-    <p class="subtitle">近 370+ 条极客神评、双视角罗生门核对、新概念一等奖文采破案、Claude 应诉书与 A330 物理配平全收录</p>
+    <p class="subtitle">全景双轨时间线、近 370+ 条极客神评、双视角罗生门核对、新概念一等奖文采破案与 Claude 官方应诉全收录</p>
     <div class="meta-tags">
       <span class="tag">📦 原仓库: <a href="https://github.com/HEJustinSun/my-girlfriend-jingtian-latex" target="_blank">HEJustinSun/my-girlfriend-jingtian-latex</a></span>
       <span class="tag">🌐 本项目源码: <a href="https://github.com/nasvip/my-girlfriend-jingtian-analysis" target="_blank">nasvip/my-girlfriend-jingtian-analysis</a></span>
@@ -292,28 +315,73 @@
     </div>
   </header>
 
-  <!-- 1分钟极速吃瓜 -->
-  <div class="timeline-card">
-    <h2>⚡ 1分钟极速省流吃瓜 (Issue #281)</h2>
-    <div class="dialogue-flow">
-      <div class="dialogue-item"><span class="speaker sp-jt">景甜</span> <span>“我是你妈。”</span></div>
-      <div class="dialogue-item"><span class="speaker sp-js">孙宇晨</span> <span>“妈妈……”（深情呼唤）</span></div>
-      <div class="dialogue-item"><span class="speaker sp-jt">景甜</span> <span>“彩礼三千万人民币，打给我爸妈（景国庆、田心爱）。”</span></div>
-      <div class="dialogue-item"><span class="speaker sp-js">孙宇晨</span> <span>“打！马上打！”（3000万秒到账）</span></div>
-      <div class="dialogue-item"><span class="speaker sp-parents">父母账户</span> <span>“收到。”（极其淡定）</span></div>
-      <div class="dialogue-item"><span class="speaker sp-jt">景甜</span> <span>“包下 A330 去海外选卵子代孕，你的指甲扎痛我了，过来磨指甲。”</span></div>
-      <div class="dialogue-item"><span class="speaker sp-js">孙宇晨</span> <span>“好！全听阿妈的！”（30人包机飞海岛，万米高空磨指甲 1 小时）</span></div>
-      <div class="dialogue-item"><span class="speaker sp-jt">景甜</span> <span>“到了诊所，没有五千万美元设立不可撤销信托，我不取卵。”</span></div>
-      <div class="dialogue-item"><span class="speaker sp-js">孙宇晨</span> <span>（一颗卵子 3.5 微克，五千万美元 2.5 吨；深夜打开电脑 terminal……）</span></div>
-      <div class="dialogue-item"><span class="speaker sp-claude">Claude Code</span> <span>“千万别给！她是骗子！资产负债表已击穿，立刻止损！”</span></div>
-      <div class="dialogue-item"><span class="speaker sp-js">孙宇晨</span> <span>“她不再爱我了吗？”</span></div>
-      <div class="dialogue-item"><span class="speaker sp-claude">Claude Code</span> <span>“对于爱情，我不关心，也不理解。但是你不能把钱给她。”</span></div>
-      <div class="dialogue-item"><span class="speaker sp-result">结局</span> <span>孙宇晨拔掉网线拒绝付款；景甜拉黑跑路；孙哥深夜写下 5x8 英寸 XeLaTeX 自传开源到 GitHub。</span></div>
+  <!-- 🌟 核心吃瓜总纲：全景编年史时间线 (清晰按时间排列) -->
+  <h2 class="category-title" style="border-color: #38bdf8;">📅 核心吃瓜总纲：19年双轨编年史时间线 (2007 ~ 2026)</h2>
+  
+  <div class="timeline-container">
+    <!-- 节点 1 -->
+    <div class="timeline-node">
+      <div class="timeline-dot"></div>
+      <span class="timeline-date">📍 2007 年 · 执念的起点</span>
+      <div class="timeline-content">
+        <div class="timeline-title">存下第一张像素糊掉的照片</div>
+        <div class="timeline-desc">高三时期的孙宇晨在电脑里存下景甜的第一张低像素照片。在此后长达 19 年里，孙宇晨无论换过多少台手机与电脑，都亲手将这张照片原封不动地手动迁移过去（Claude 应诉神评：<em>那不是缓存，那是信仰</em>）。</div>
+      </div>
+    </div>
+
+    <!-- 节点 2 -->
+    <div class="timeline-node gold">
+      <div class="timeline-dot"></div>
+      <span class="timeline-date">📍 2025 年末 · 定亲与巨额彩礼</span>
+      <div class="timeline-content">
+        <div class="timeline-title">相识确立关系，3000万现金彩礼秒到账</div>
+        <div class="timeline-desc">两人正式确立恋爱关系，景甜称“我爸妈养我这么大不容易，你得给彩礼”，报出父母景国庆、田心爱的账号。孙宇晨当场直接转账 <strong>3000 万人民币现金</strong>。随后田心爱极其淡定地回复了两个字：<em>“收到”</em>。</div>
+      </div>
+    </div>
+
+    <!-- 节点 3 -->
+    <div class="timeline-node">
+      <div class="timeline-dot"></div>
+      <span class="timeline-date">📍 2025-12-21 · 万米高空的温存</span>
+      <div class="timeline-content">
+        <div class="timeline-title">A330 包机飞海岛，“叫妈妈”与修甲一小时</div>
+        <div class="timeline-desc">孙宇晨包下一架核载 200 人的空中客车 A330，携带 30 人团队飞往大西洋特内里费海岛（雷达数据已被极客实锤）。在飞机卧室里，景甜抱着他说<em>“别叫我景甜了，叫我妈妈吧”</em>；并因为嫌孙哥指甲扎人，在腿上帮孙哥修剪打磨指甲整整 1 小时。</div>
+      </div>
+    </div>
+
+    <!-- 节点 4 -->
+    <div class="timeline-node blue">
+      <div class="timeline-dot"></div>
+      <span class="timeline-date">📍 2026 年初 · 海外代孕计划</span>
+      <div class="timeline-content">
+        <div class="timeline-title">签订海外生殖中心，预定 2027 属马宝宝</div>
+        <div class="timeline-desc">两人商定前往海外顶尖生殖机构进行取卵代孕，孙哥支付数百万定金与包机差旅，计划在 2027 年生下属马的小孩。</div>
+      </div>
+    </div>
+
+    <!-- 节点 5 -->
+    <div class="timeline-node" style="border-color: var(--accent);">
+      <div class="timeline-dot" style="border-color: var(--accent);"></div>
+      <span class="timeline-date" style="color: var(--accent);">📍 2026 年 3 月 · 决裂之夜（核心高潮）</span>
+      <div class="timeline-content" style="border: 1px solid rgba(244, 63, 94, 0.4);">
+        <div class="timeline-title">5000 万美元信托通牒，Claude 拔刀斩情丝</div>
+        <div class="timeline-desc">在蒙太奇拉古纳海滩诊所取卵前夕，景甜突然提出最后通牒：必须向其设立的不可撤销家族信托转入 <strong>5000 万美元（约 3.6 亿人民币）</strong>，否则拒不取卵。孙宇晨深夜在酒店终端调出 Claude Code 算账，Claude 冷酷回答：<em>“不要把这五千万给她，对于爱情我不关心也不理解，但你绝不能打钱！”</em> 孙宇晨瞬间清醒拒绝打钱，景甜随即拉黑跑路。</div>
+      </div>
+    </div>
+
+    <!-- 节点 6 -->
+    <div class="timeline-node purple">
+      <div class="timeline-dot"></div>
+      <span class="timeline-date">📍 2026 年 8 月 · 全网狂欢与开源自传</span>
+      <div class="timeline-content">
+        <div class="timeline-title">孙宇晨起诉追讨彩礼并在 GitHub 开源自传《我的女友景甜》</div>
+        <div class="timeline-desc">孙宇晨通过律师向法院起诉追讨 3000 万彩礼，并将自传以 5x8 英寸 XeLaTeX 源码开源到 GitHub。随后 Issue 区彻底演变为中文互联网年度极客狂欢与全网吃瓜盛宴。</div>
+      </div>
     </div>
   </div>
 
   <!-- 最新爆发：双视角罗生门 -->
-  <h2 class="category-title" style="border-color: var(--purple-color);">⚖️ 最新爆发：双视角罗生门长文核对 (Issue #351)</h2>
+  <h2 class="category-title" style="border-color: var(--purple-color);">⚖️ 双视角长文罗生门核对 (Issue #351)</h2>
   <div class="luoshengmen-card">
     <h3>🔍 男方《我的女友景甜》vs 疑似女方《我的男友孙宇晨》</h3>
     <p style="margin-bottom: 12px; color: #e2e8f0;"><strong>1. 女方的终极心声：【他爱的是等待，不是我】</strong><br>
