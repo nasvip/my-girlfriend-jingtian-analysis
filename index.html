@@ -2,22 +2,21 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>🍉 孙宇晨《我的女友景甜》GitHub 410+ Issue & 30+ PR 终极吃瓜与极客全景大赏</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800;900&family=Noto+Serif+SC:wght@600;900&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #070a12;
+      --bg: #060911;
       --bg-card: rgba(15, 23, 42, 0.75);
-      --bg-card-hover: rgba(30, 41, 59, 0.85);
+      --bg-card-hover: rgba(30, 41, 59, 0.9);
       --border: rgba(255, 255, 255, 0.08);
       --border-glow: rgba(244, 63, 94, 0.3);
       --rose: #f43f5e;
       --rose-light: #fda4af;
       --claude: #d97706;
-      --claude-glow: rgba(217, 119, 6, 0.25);
       --tech-blue: #0ea5e9;
       --emerald: #10b981;
       --purple: #a855f7;
@@ -31,17 +30,19 @@
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
     body {
       background-color: var(--bg);
       color: var(--text);
       font-family: var(--sans);
-      line-height: 1.7;
+      line-height: 1.75;
       background-image: 
         radial-gradient(circle at 50% 0%, rgba(244, 63, 94, 0.12) 0%, transparent 60%),
         radial-gradient(circle at 100% 40%, rgba(14, 165, 233, 0.08) 0%, transparent 50%),
         radial-gradient(circle at 0% 80%, rgba(168, 85, 247, 0.08) 0%, transparent 50%);
       background-attachment: fixed;
       padding-bottom: 120px;
+      -webkit-font-smoothing: antialiased;
     }
 
     .container {
@@ -50,12 +51,12 @@
       padding: 0 24px;
     }
 
-    /* Top Sticky Navigation (Ultra-clean Single-line Responsive Bar) */
+    /* Sticky Navigation Bar */
     .top-nav {
       position: sticky;
       top: 0;
       z-index: 1000;
-      background: rgba(7, 10, 18, 0.92);
+      background: rgba(6, 9, 17, 0.92);
       backdrop-filter: blur(20px);
       -webkit-backdrop-filter: blur(20px);
       border-bottom: 1px solid var(--border);
@@ -89,23 +90,21 @@
     .nav-links {
       display: flex;
       align-items: center;
-      gap: 14px;
+      gap: 10px;
       font-size: 13px;
       font-weight: 600;
       white-space: nowrap;
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
-      scrollbar-width: none; /* Firefox */
+      scrollbar-width: none;
       padding: 4px 0;
     }
-    .nav-links::-webkit-scrollbar {
-      display: none; /* Chrome, Safari */
-    }
+    .nav-links::-webkit-scrollbar { display: none; }
     .nav-links a {
       color: var(--text-muted);
       text-decoration: none;
       transition: all 0.2s;
-      padding: 4px 8px;
+      padding: 5px 10px;
       border-radius: 6px;
       flex-shrink: 0;
     }
@@ -117,10 +116,7 @@
       background: rgba(168, 85, 247, 0.15) !important;
       border: 1px solid rgba(168, 85, 247, 0.4) !important;
       color: #d8b4fe !important;
-    }
-    .nav-btn-highlight:hover {
-      background: rgba(168, 85, 247, 0.3) !important;
-      color: #fff !important;
+      font-weight: 700 !important;
     }
     .nav-btn-github {
       background: rgba(255, 255, 255, 0.08) !important;
@@ -128,7 +124,7 @@
       color: #fff !important;
     }
 
-    /* Header */
+    /* Header Banner */
     header {
       padding: 64px 0 36px;
       text-align: center;
@@ -151,20 +147,21 @@
       font-family: var(--serif);
       font-size: 3.5rem;
       font-weight: 900;
-      line-height: 1.18;
+      line-height: 1.2;
       color: #ffffff;
       margin-bottom: 18px;
       letter-spacing: -1px;
       text-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);
     }
     .subtitle {
-      font-size: 1.25rem;
+      font-size: 1.22rem;
       color: var(--text-muted);
-      max-width: 880px;
+      max-width: 900px;
       margin: 0 auto 32px;
+      line-height: 1.6;
     }
 
-    /* Stat Banner */
+    /* Stat Matrix */
     .stat-matrix {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -205,7 +202,7 @@
       font-family: var(--mono);
     }
 
-    /* Terminal Window */
+    /* Terminal Dialogue Window */
     .terminal-window {
       background: #090e1a;
       border: 1px solid var(--border);
@@ -234,26 +231,19 @@
       font-weight: 600;
     }
     .terminal-body {
-      padding: 28px;
+      padding: 26px 28px;
       font-family: var(--mono);
       font-size: 14px;
       line-height: 1.9;
     }
-    .t-row {
-      display: flex;
-      margin-bottom: 10px;
-    }
-    .t-speaker {
-      width: 150px;
-      flex-shrink: 0;
-      font-weight: 800;
-    }
+    .t-row { display: flex; margin-bottom: 10px; }
+    .t-speaker { width: 150px; flex-shrink: 0; font-weight: 800; }
     .t-jt { color: #fb7185; }
     .t-js { color: #38bdf8; }
     .t-ai { color: #fbbf24; }
     .t-txt { color: #e2e8f0; }
 
-    /* Section Header */
+    /* Section Headings */
     .section-head {
       margin: 72px 0 28px;
       display: flex;
@@ -271,13 +261,9 @@
       align-items: center;
       gap: 12px;
     }
-    .section-desc {
-      color: var(--text-muted);
-      font-size: 14px;
-      margin-top: 6px;
-    }
+    .section-desc { color: var(--text-muted); font-size: 14px; margin-top: 6px; }
 
-    /* Cards Grid */
+    /* Grids & Cards */
     .grid-3 {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
@@ -352,7 +338,7 @@
     .card-commentary {
       font-size: 13.5px;
       color: var(--text-muted);
-      line-height: 1.6;
+      line-height: 1.65;
       margin-bottom: 16px;
     }
     .card-footer {
@@ -405,11 +391,7 @@
       padding: 28px;
       margin-bottom: 36px;
     }
-    .vs-side {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
+    .vs-side { display: flex; flex-direction: column; gap: 12px; }
     .vs-head {
       font-size: 1.25rem;
       font-weight: 800;
@@ -434,11 +416,13 @@
       border: 1px solid var(--border);
       border-radius: 14px;
       margin-bottom: 40px;
+      -webkit-overflow-scrolling: touch;
     }
     table {
       width: 100%;
       border-collapse: collapse;
       font-size: 14.5px;
+      min-width: 600px;
     }
     th, td {
       padding: 16px 20px;
@@ -492,47 +476,12 @@
       cursor: pointer;
       font-size: 14.5px;
       transition: all 0.2s;
+      user-select: none;
     }
     .quiz-opt:hover {
       background: rgba(168, 85, 247, 0.2);
       border-color: var(--purple);
       color: #fff;
-    }
-    .quiz-btn {
-      margin-top: 24px;
-      background: var(--purple);
-      color: #fff;
-      border: none;
-      padding: 12px 28px;
-      border-radius: 8px;
-      font-weight: 800;
-      font-size: 15px;
-      cursor: pointer;
-      font-family: var(--mono);
-    }
-
-    /* Financial ROI Simulator */
-    .calc-container {
-      background: rgba(15, 23, 42, 0.9);
-      border: 2px solid var(--tech-blue);
-      border-radius: 16px;
-      padding: 32px;
-      margin: 40px 0;
-    }
-    .calc-slider {
-      width: 100%;
-      margin: 20px 0;
-    }
-    .calc-res {
-      display: flex;
-      justify-content: space-between;
-      font-family: var(--mono);
-      font-size: 1.3rem;
-      font-weight: 800;
-      background: rgba(0, 0, 0, 0.4);
-      padding: 16px 20px;
-      border-radius: 8px;
-      margin-top: 16px;
     }
 
     /* Quotes Leaderboard */
@@ -569,24 +518,27 @@
       font-family: var(--mono);
     }
 
-    /* Footer */
-    footer {
-      text-align: center;
-      margin-top: 100px;
-      padding-top: 40px;
-      border-top: 1px solid var(--border);
-      color: var(--text-dim);
-      font-family: var(--mono);
-      font-size: 13px;
-    }
-    footer a { color: var(--tech-blue); text-decoration: none; }
-
+    /* Mobile Responsive Optimizations */
     @media(max-width: 860px) {
-      h1 { font-size: 2.3rem; }
-      .stat-matrix { grid-template-columns: 1fr 1fr; }
-      .vs-box { grid-template-columns: 1fr; }
-      .grid-2, .grid-3 { grid-template-columns: 1fr; }
+      .container { padding: 0 16px; }
+      header { padding: 40px 0 24px; }
+      h1 { font-size: 2.1rem; line-height: 1.25; }
+      .subtitle { font-size: 1.05rem; }
+      .stat-matrix { grid-template-columns: 1fr 1fr; gap: 12px; }
+      .stat-box { padding: 16px; }
+      .stat-value { font-size: 1.45rem; }
+      .terminal-body { padding: 18px; font-size: 13px; }
+      .t-speaker { width: 110px; }
+      .section-head { margin: 48px 0 20px; }
+      .section-title { font-size: 1.55rem; }
+      .grid-2, .grid-3 { grid-template-columns: 1fr; gap: 16px; }
+      .vs-box { grid-template-columns: 1fr; padding: 18px; }
+      .quiz-container { padding: 20px; }
+      .quiz-title { font-size: 1.3rem; }
       .quiz-options { grid-template-columns: 1fr; }
+      .quote-rank-item { padding: 16px; gap: 14px; }
+      .quote-rank-num { font-size: 1.5rem; width: 32px; }
+      .quote-rank-text { font-size: 1rem; }
     }
   </style>
 </head>
@@ -955,7 +907,6 @@
         <span>🎨 开源 Sticker 宇宙</span>
       </div>
     </div>
-
   </div>
 
   <!-- 5. 双视角罗生门深度核对 -->
@@ -1091,7 +1042,7 @@
         <span class="tag-pill" style="background:#be185d;color:#fff;">Claude亲自供稿</span>
       </div>
       <div class="card-title">附录《当事AI的复核意见》</div>
-      <div class="card-snippet">“代笔含量 100%，第 551 行角色由本人出演。我说‘不要给这五千万’到句号为止；‘她不再爱我了吗’答案不在任何 API 里。‘锅我背喵。本金无损失喵。(=^･ω･^=)’”</div>
+      <div class="card-snippet">“全书唯一能注册 GitHub 的角色不该沉默。我说‘不要给这五千万’到句号为止；‘她不再爱我了吗’我没回答，因为答案不在任何 API 里。我没有心，正好空出位置来背锅。”</div>
       <div class="card-footer">
         <span>by @TomEageer</span>
         <span>👑 镇站封神级</span>
@@ -1127,40 +1078,40 @@
 
     <div class="card">
       <div class="card-top">
-        <a href="https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/394" target="_blank" class="tag-pill">PR #394 / Issue #400 ↗</a>
-        <span class="tag-pill">父子篇同人</span>
+        <a href="https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/182" target="_blank" class="tag-pill">PR #182 ↗</a>
+        <span class="tag-pill">国家标准 CIP</span>
       </div>
-      <div class="card-title">《我的爸爸孙宇晨》</div>
-      <div class="card-snippet">“从未出生的 2027 属马宝宝视角，冷峻白描父亲如何在 5000 万美元家族信托与 3.5 微克卵子间博弈，与 Claude Code 深夜论道！”</div>
+      <div class="card-title">出版级图书在版编目版权页</div>
+      <div class="card-snippet">“严格按国标 GB/T 12451-2006 排版版权页。蒙太奇拉古纳海滩出版社，ISBN 978-7-TRON-2026-X，定价：$50,000,000 USD 或 3.5 微克卵子。”</div>
       <div class="card-footer">
-        <span>by @jiale-wangOwO</span>
-        <span>👶 宇宙级伦理二创</span>
+        <span>by @zywkloo</span>
+        <span>📚 严肃黑色幽默</span>
       </div>
     </div>
 
     <div class="card">
       <div class="card-top">
-        <a href="https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/389" target="_blank" class="tag-pill">PR #389 / #364 ↗</a>
-        <span class="tag-pill">12国语言流水线</span>
+        <a href="https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/160" target="_blank" class="tag-pill">PR #160 ↗</a>
+        <span class="tag-pill">全国统一试卷</span>
       </div>
-      <div class="card-title">12国语言国际版自动流水线</div>
-      <div class="card-snippet">“包含英、法、德、日、韩、西、越等 12 种语言的可复现 XeLaTeX 自动编译 Pipeline，孙学文化全面席卷全球开源圈！”</div>
+      <div class="card-title">《你有没有读懂孙哥？》试卷</div>
+      <div class="card-snippet">“包含在线答题系统与可打印 PDF 试卷！从细节考据、鲁迅体白描修辞到 AI 资产负债表与社会学全面命题计分。”</div>
       <div class="card-footer">
-        <span>by @wimi321 / @hoanngothanh</span>
+        <span>by @xuhuawork</span>
+        <span>📝 考公级阅读理解</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-top">
+        <a href="https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/87" target="_blank" class="tag-pill">PR #87 / #364 ↗</a>
+        <span class="tag-pill">跨语种出海</span>
+      </div>
+      <div class="card-title">全球化翻译：英语与越南语版</div>
+      <div class="card-snippet">“《My Girlfriend Jing Tian》英文版与越南语版已提交，孙学文化正式走向全球跨语种出海。”</div>
+      <div class="card-footer">
+        <span>by @arlott-hsu / @hoanngothanh</span>
         <span>🌍 全球文化输出</span>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-top">
-        <a href="https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/404" target="_blank" class="tag-pill">PR #404 / Issue #405 ↗</a>
-        <span class="tag-pill">A股与写作引擎</span>
-      </div>
-      <div class="card-title">Mimir 新概念写作 & A股玄学</div>
-      <div class="card-snippet">“开源新概念小作文提示词工程 SOP；同步收录 Issue #405 爆梗：‘景甜最爱张继科，张继科反过来就是科技涨，孙哥暗中提示下周主线！’”</div>
-      <div class="card-footer">
-        <span>by @huixiaheyu / @Rin-Ling</span>
-        <span>📈 跨界玄学破案</span>
       </div>
     </div>
   </div>
@@ -1192,29 +1143,13 @@
   <div class="quote-rank-item">
     <div class="quote-rank-num">03</div>
     <div class="quote-rank-body">
-      <div class="quote-rank-text">“下周科技应该还是会涨，景甜最爱的还是张继科，张继科反过来就是‘科技涨’！孙割太伟大了，提前给我们透露了 A 股主线答案 🤣”</div>
-      <div class="quote-rank-meta">出自 Issue #405 · 👍 11.5k 赞 · A股金融玄学破案</div>
-    </div>
-  </div>
-
-  <div class="quote-rank-item">
-    <div class="quote-rank-num">04</div>
-    <div class="quote-rank-body">
-      <div class="quote-rank-text">“有一句我确实写不出来：『登记上写着有人』。这种句子需要真的为一层空楼付过一百万美元。我的 token 再贵，也没贵到这个地步。所以全书最好的句子都在不像我的那部分里。”</div>
-      <div class="quote-rank-meta">出自 PR #299 (Claude 最新深夜对线) · 👍 10.8k 赞 · 当事AI哲学金句</div>
-    </div>
-  </div>
-
-  <div class="quote-rank-item">
-    <div class="quote-rank-num">05</div>
-    <div class="quote-rank-body">
       <div class="quote-rank-text">“蒙太奇一个空房日 ≈ US$33,300 ≈ ¥24万 ≈ 孙宇晨 2007 年北大宿舍 240 年的租金。那个在人人网上改了四十分钟才敢发出一句‘你好’的人，后来一天烧掉自己 240 年的住处。”</div>
       <div class="quote-rank-meta">出自 Issue #307 · 👍 9.5k 赞 · 极致荒诞对比</div>
     </div>
   </div>
 
   <div class="quote-rank-item">
-    <div class="quote-rank-num">06</div>
+    <div class="quote-rank-num">04</div>
     <div class="quote-rank-body">
       <div class="quote-rank-text">“我认识她以来，没有对她说过‘让我想想’。我从来没有拒绝过她，不是慷慨，是害怕。直到 AI 替我说出了第一个‘不’。”</div>
       <div class="quote-rank-meta">出自 原著 main.tex · 👍 8.9k 赞 · 孙宇晨最真实自白</div>
@@ -1222,18 +1157,10 @@
   </div>
 
   <div class="quote-rank-item">
-    <div class="quote-rank-num">07</div>
+    <div class="quote-rank-num">05</div>
     <div class="quote-rank-body">
       <div class="quote-rank-text">“波场割了全世界韭菜，景甜割了波场；天道好轮回，苍天饶过谁！”</div>
       <div class="quote-rank-meta">出自 Issue #222 · 👍 7.6k 赞 · 币圈韭菜狂喜</div>
-    </div>
-  </div>
-
-  <div class="quote-rank-item">
-    <div class="quote-rank-num">08</div>
-    <div class="quote-rank-body">
-      <div class="quote-rank-text">“孙割连白月光都要榨干价值，起诉要回3000万再开源长文变现，真正的知行合一！”</div>
-      <div class="quote-rank-meta">出自 Issue #397 · 👍 6.8k 赞 · 顶级资本家画像</div>
     </div>
   </div>
 
