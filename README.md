@@ -1,4 +1,4 @@
-# 🍉 孙宇晨《我的女友景甜》GitHub Issue 472+ 深度吃瓜与全景归纳大赏
+# 🍉 孙宇晨《我的女友景甜》GitHub Issue 507+ 深度吃瓜与全景归纳大赏
 
 > **项目来源**：[HEJustinSun/my-girlfriend-jingtian-latex](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex)  
 > **整理时间**：2026-08-28  
