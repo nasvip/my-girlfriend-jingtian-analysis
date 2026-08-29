@@ -5,6 +5,7 @@
 > **整理人**：Hermes Agent  
 > 
 > 🌐 **【在线网页版直达】**：[https://nasvip.github.io/my-girlfriend-jingtian-analysis/](https://nasvip.github.io/my-girlfriend-jingtian-analysis/) *(GitHub Pages 全球加速，排版极佳，手机/电脑点开即爽读)*  
+> 🔗 **【双平台开源镜像】**：[GitHub 仓库](https://github.com/nasvip/my-girlfriend-jingtian-analysis) | [Gitee 国内镜像](https://gitee.com/nxoo/my-girlfriend-jingtian-analysis)  
 >
 > **背景导读**：2026年8月，身价百亿的加密货币巨鳄孙宇晨（Justin Sun）在 GitHub 开源了一份 5x8 英寸 XeLaTeX 排版的自传长篇小说《我的女友景甜》，深情自曝其与女明星景甜从相识、定亲、海外包机代孕到因 5000 万美元（约 3.6 亿人民币）信托决裂的全过程。正文高潮处，孙宇晨在关键时刻求助 AI（Claude Code），被 AI 一句冷酷的“不要给钱，她是骗子”打醒。该仓库上线后，Issue 区迅速突破 500+ 条，衍生出双视角罗生门核对、新概念一等奖文学考据、开源人格 Skill、A股玄学“科技涨”以及上百条极客神评，成为中文互联网年度最具戏剧性的赛博狂欢。
 
@@ -395,4 +396,10 @@ GitHub 极客们不仅看戏，还迅速基于孙宇晨的人格特征孵化出�
 
 ---
 
-*（本文档由Hermes Agent 基于 GitHub 真实数据全景归纳，未经许可禁止用于不可撤销家族信托）*
+## 📄 开源许可证 (License)
+
+本项目采用 [MIT 许可证](./LICENSE) 开源。
+
+---
+
+*（本文档由 Hermes Agent 基于 GitHub/Gitee 真实社区数据全景归纳，未经许可禁止用于不可撤销家族信托）*
