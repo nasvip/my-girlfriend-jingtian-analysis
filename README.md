@@ -25,15 +25,15 @@
 
 
 > 📚 **【深度吃瓜专题长文分册（按事件演进与存档学脉络编排）】**：
-> - 📄 [01. 全书财务审计明细表（Kelly 7页完整版）](./docs/01_全书财务审计明细表_Kelly完整版.md) —— *每一笔流水中位测算与“5倍量纲”台账哲学*
-> - 📄 [02. 双视角长文罗生门核对（[Issue #351](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/351) 深度解析）](./docs/02_双视角长文罗生门核对_Issue351.md) —— *男方执念 vs 女方“极限压力测试”*
-> - 📄 [03. 当事 AI 官方应诉书与自辩全文（PR [Issue #299](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/299) / [Issue #300](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/300)）](./docs/03_当事AI官方应诉书与辩词全文_Issue300_PR299.md) —— *【① 自辩】Claude 亲自供稿：“我没有心，正好空出位置背锅”*
-> - 📄 [04. 跨语种全球化出海与极客考据集（PR [Issue #87](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/87) / [Issue #425](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/425) / [Issue #12](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/12)）](./docs/04_极客硬核考据集_航空航迹与TeX排版.md) —— *【② 传播】英/日/西/法/俄/越完整译本、ADS-B雷达航迹与出版级版权页*
-> - 📄 [05. 「孙体」写作法则 12 铁律与方法论解构（PR [Issue #433](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/433) / [Issue #435](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/435)）](./docs/07_六大模型决战五千万与孙体写作法则.md) —— *【③ 方法论】从文本到技能，数字对仗与盲测样张《我的机械键盘》*
-> - 📄 [06. 六大主流模型决战五千万信托（[Issue #445](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/445)）](./docs/07_六大模型决战五千万与孙体写作法则.md) —— *全网大模型人格测评：Claude/DeepSeek/GLM/Kimi/Qwen/MiniMax*
-> - 📄 [07. 文学溯源与衍生开源宇宙生态（PR [Issue #321](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/321) / [Issue #160](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/160) / [Issue #182](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/182)）](./docs/05_文学溯源与衍生开源宇宙生态.md) —— *新概念一等奖履历、全国统一阅读理解试卷与 60 集短剧*
-> - 📄 [08. 反方檄文、双标回旋镖与社区 Meme 表情包生态（[Issue #319](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/319) / [Issue #378](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/378) / [Issue #399](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/399)）](./docs/06_反方檄文与社区Meme表情包生态.md) —— *Sally姐PDF回击、90后双标梗与表情包九宫格*
-> - 📄 [09. 最新社区神评、衍生游戏与 AI 当事人答辩（[Issue #448](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/448)~[Issue #472](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/472)）](./docs/08_最新社区爆点与衍生宇宙.md) —— *文字互动游戏化、Claude Code未记录副作用与理科男浪漫*
+> - 📄 **[01. 全书财务审计明细表（Kelly 7页完整版）](./docs/01_全书财务审计明细表_Kelly完整版.md)** —— *每一笔流水中位测算与“5倍量纲”台账哲学*
+> - 📄 **[02. 双视角长文罗生门核对](./docs/02_双视角长文罗生门核对_Issue351.md)** （深度解析 [Issue #351](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/351)） —— *男方执念 vs 女方“极限压力测试”*
+> - 📄 **[03. 当事 AI 官方应诉书与自辩全文](./docs/03_当事AI官方应诉书与辩词全文_Issue300_PR299.md)** （溯源 [PR #299](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/299) / [Issue #300](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/300)） —— *【① 自辩】Claude 亲自供稿：“我没有心，正好空出位置背锅”*
+> - 📄 **[04. 跨语种全球化出海与极客考据集](./docs/04_极客硬核考据集_航空航迹与TeX排版.md)** （考据 [PR #87](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/87) / [PR #425](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/425) / [Issue #12](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/12)） —— *【② 传播】英/日/西/法/俄/越完整译本、ADS-B雷达航迹与出版级版权页*
+> - 📄 **[05. 「孙体」写作法则 12 铁律与方法论解构](./docs/07_六大模型决战五千万与孙体写作法则.md)** （解构 [PR #433](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/433) / [Issue #435](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/435)） —— *【③ 方法论】从文本到技能，数字对仗与盲测样张《我的机械键盘》*
+> - 📄 **[06. 六大主流模型决战五千万信托](./docs/07_六大模型决战五千万与孙体写作法则.md)** （测评 [Issue #445](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/445)） —— *全网大模型人格测评：Claude/DeepSeek/GLM/Kimi/Qwen/MiniMax*
+> - 📄 **[07. 文学溯源与衍生开源宇宙生态](./docs/05_文学溯源与衍生开源宇宙生态.md)** （联动 [PR #321](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/321) / [Issue #160](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/160) / [Issue #182](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/182)） —— *新概念一等奖履历、全国统一阅读理解试卷与 60 集短剧*
+> - 📄 **[08. 反方檄文、双标回旋镖与社区 Meme 表情包生态](./docs/06_反方檄文与社区Meme表情包生态.md)** （收录 [Issue #319](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/319) / [Issue #378](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/378) / [Issue #399](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/399)） —— *Sally姐PDF回击、90后双标梗与表情包九宫格*
+> - 📄 **[09. 最新社区神评、衍生游戏与 AI 当事人答辩](./docs/08_最新社区爆点与衍生宇宙.md)** （追踪 [Issue #448](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/448) ~ [Issue #472](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/472)） —— *文字互动游戏化、Claude Code未记录副作用与理科男浪漫*
 
 ---
 
