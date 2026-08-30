@@ -69,13 +69,15 @@
 1. [🍉 极速吃瓜：一分钟看懂狗血剧情（对话流）](#section-1)
 2. [👥 核心出场人物关系谱（孙甜宇宙关系网）](#section-2)
 3. [📅 故事编年史与真金白银时间线（2007~2026）](#section-3)
+   - 3.1 [📅 真实事件与金钱时间线 (2007~2026)](#section-3-1)
    - 3.2 [🚀 赛博吃瓜舆情演进与项目追踪时间线 (Live Timeline)](#section-3-2)
 4. [💰 深度财务审计：孙哥到底被割了多少？（资产清算终审表）](#section-4)
 5. [📖 原著经典名场面原文摘录（北大才子的纯情自白）](#section-5)
 6. [⚖️ 最新爆发：双视角罗生门长文深度核对 (Issue #351)](#section-6)
 7. [🎓 文学破案：孙哥为何文笔封神？第九届新概念一等奖履历曝光 (Issue #363)](#section-7)
-8. [🛠️ 社区极客生态狂欢：衍生开源项目《孙哥.skill》 (Issue #335)](#section-8)
-   - 8.5 [🛠️ Pull Requests 社区硬核整活与衍生宇宙大赏 (PRs 巡礼)](#section-8-5)
+8. [🛠️ 社区极客生态狂欢：衍生开源项目与 PRs 大赏](#section-8)
+   - 8.1 [🤖 衍生开源项目《孙哥.skill》 (Issue #335)](#section-8-1)
+   - 8.2 [🛠️ Pull Requests 社区硬核整活与衍生宇宙大赏 (PRs 巡礼)](#section-8-2)
 9. [🔥 Issue 区六大门派深度吃瓜实录（全网狂欢）](#section-9)
    - 9.1 [第一派：【克劳德全责门】—— AI 拔刀斩情丝与 Claude 亲自应诉神文](#section-9-1)
    - 9.2 [第二派：【孙学文学鉴赏派】—— 叫妈妈、剪指甲与当代鲁迅体](#section-9-2)
@@ -146,6 +148,9 @@ Claude Code（无情）："对于爱情，我不关心，也不理解。但是�
 
 <a id="section-3"></a>
 ## 3. 📅 故事编年史与真金白银时间线（2007~2026）
+
+<a id="section-3-1"></a>
+### 3.1 📅 真实事件与金钱时间线 (2007~2026)
 
 根据正文及 [Issue #12](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/12)、[Issue #307](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/307)、[Issue #351](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/351) 的航空航迹与财务交叉还原：
 
@@ -272,7 +277,10 @@ Claude Code（无情）："对于爱情，我不关心，也不理解。但是�
 ---
 
 <a id="section-8"></a>
-## 8. 🛠️ 社区极客生态狂欢：衍生开源项目《孙哥.skill》 (Issue #335)
+## 8. 🛠️ 社区极客生态狂欢：衍生开源项目与 PRs 大赏
+
+<a id="section-8-1"></a>
+### 8.1 🤖 衍生开源项目《孙哥.skill》 (Issue #335)
 
 GitHub 极客们不仅看戏，还迅速基于孙宇晨的人格特征孵化出了开源 AI 工具生态：
 - **`sunge-skills` 开源角色卡（[Issue #335](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/335)）**：
@@ -284,8 +292,8 @@ GitHub 极客们不仅看戏，还迅速基于孙宇晨的人格特征孵化出�
 
 ---
 
-<a id="section-8-5"></a>
-## 8.5 🛠️ Pull Requests 社区硬核整活与衍生宇宙大赏 (PRs 巡礼)
+<a id="section-8-2"></a>
+### 8.2 🛠️ Pull Requests 社区硬核整活与衍生宇宙大赏 (PRs 巡礼)
 
 如果说 Issue 区是网友的嘴炮狂欢，那么 **Pull Requests 区则是硬核极客与艺术家的“降维打击”**！目前社区已提交 27+ 个高能 PR，直接把一本私人自传硬生生扩展成了一个庞大的开源数字 IP 宇宙：
 
