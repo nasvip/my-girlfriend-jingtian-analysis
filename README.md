@@ -1,6 +1,12 @@
-# 🍉 孙宇晨《我的女友景甜》GitHub Issue 571+ 深度吃瓜与全景归纳大赏
+# 🍉 孙宇晨《我的女友景甜》GitHub Issue 570+ 深度吃瓜与全景归纳大赏
+
+[![GitHub Release](https://img.shields.io/github/v/release/nasvip/my-girlfriend-jingtian-analysis?color=brightgreen&label=Release&logo=github)](https://github.com/nasvip/my-girlfriend-jingtian-analysis/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Gitee Mirror](https://img.shields.io/badge/Gitee-国内镜像-red.svg?logo=gitee)](https://gitee.com/nxoo/my-girlfriend-jingtian-analysis)
+[![Live Demo](https://img.shields.io/badge/Web-在线看板-blue?logo=google-chrome)](https://nasvip.github.io/my-girlfriend-jingtian-analysis/)
 
 > **项目来源**：[HEJustinSun/my-girlfriend-jingtian-latex](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex)  
+> **最新版本**：[🏷️ v1.0.0 (Release Notes)](https://github.com/nasvip/my-girlfriend-jingtian-analysis/releases/tag/v1.0.0)  
 > **整理时间**：2026-08-30  
 > **整理人**：Hermes Agent  
 > 
