@@ -1,4 +1,4 @@
-# 🍉 孙宇晨《我的女友景甜》GitHub Issue 558+ 深度吃瓜与全景归纳大赏
+# 🍉 孙宇晨《我的女友景甜》GitHub Issue 560+ 深度吃瓜与全景归纳大赏
 
 > **项目来源**：[HEJustinSun/my-girlfriend-jingtian-latex](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex)  
 > **整理时间**：2026-08-28  
@@ -17,6 +17,7 @@
 
 | 🕒 更新时间 (CST) | 📌 追踪水位 | 🔥 最新捕获爆点 / 神梗与生态速览 | 📂 对应吃瓜分册 |
 |:---|:---|:---|:---|
+| **2026-08-30 12:10** | **[Issue #560](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/560)+** | 增量捕获社区最新讨论（从未见过如此厚颜无耻之人、一个百亿大佬的黄粱一梦！） | [📄 09. 最新爆点与衍生宇宙](./docs/08_最新社区爆点与衍生宇宙.md) |
 | **2026-08-30 10:08** | **[Issue #558](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/558)+** | 增量捕获社区最新讨论（没想到孙还受过文学的训练、催更） | [📄 09. 最新爆点与衍生宇宙](./docs/08_最新社区爆点与衍生宇宙.md) |
 | **2026-08-30 08:07** | **[Issue #554](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/554)+** | 增量捕获社区最新讨论（孙割爱情小游戏、打卡） | [📄 09. 最新爆点与衍生宇宙](./docs/08_最新社区爆点与衍生宇宙.md) |
 | **2026-08-30 04:03** | **[Issue #552](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/552)+** | 增量捕获社区最新讨论（合影✌、合影，顺便问下不会没得吃吧） | [📄 09. 最新爆点与衍生宇宙](./docs/08_最新社区爆点与衍生宇宙.md) |
@@ -26,17 +27,27 @@
 | **2026-08-29 19:53** | **[Issue #538](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/538)+** | 增量捕获社区最新讨论（合影、绷不住了） | [📄 09. 最新爆点与衍生宇宙](./docs/08_最新社区爆点与衍生宇宙.md) |
 | **2026-08-29 17:50** | **[Issue #536](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/536)+** | 增量捕获社区最新讨论（合影✌🏻、合影✌） | [📄 09. 最新爆点与衍生宇宙](./docs/08_最新社区爆点与衍生宇宙.md) |
 | **2026-08-29 15:49** | **[Issue #533](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/533)+** | 增量捕获社区最新讨论（Free tool: StemDeck 、合影✌） | [📄 09. 最新爆点与衍生宇宙](./docs/08_最新社区爆点与衍生宇宙.md) |
-| **2026-08-29 13:48** | **[Issue #515](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/515)+** | 增量捕获社区最新讨论（AI 孙哥炼化完成，本人前来报到：有事问、把孙哥的文笔做成了一个 Agent Sk） | [📄 09. 最新爆点与衍生宇宙](./docs/08_最新社区爆点与衍生宇宙.md) |
 
 <details>
 <summary>📜 <b>点击展开查看历史早期追踪归档记录 (Changelog Archive)</b></summary>
 
 | 🕒 历史时间 (CST) | 📌 追踪水位 | 🔥 历史捕获爆点 / 神梗与生态速览 | 📂 对应吃瓜分册 |
 |:---|:---|:---|:---|
+| **2026-08-29 13:48** | **[Issue #515](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/515)+** | 增量捕获社区最新讨论（AI 孙哥炼化完成，本人前来报到：有事问、把孙哥的文笔做成了一个 Agent Sk） | [📄 09. 最新爆点与衍生宇宙](./docs/08_最新社区爆点与衍生宇宙.md) |
 | **2026-08-29 11:48** | **[Issue #507](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/507)+** | 增量捕获社区文字冒险互动游戏化（[Issue #471](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/471)）、Claude Code 未记录副作用（[Issue #464](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/464)）与当事 AI 理工男浪漫解读 | [📄 09. 最新爆点与衍生宇宙](./docs/08_最新社区爆点与衍生宇宙.md) |
 | **2026-08-28 21:28** | **[Issue #472](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/472)+** | 捕获《我的机械键盘》孙体写作法则实测、六大主流大模型决战五千万信托终极横评 | [📄 05. 孙体法则与模型决战](./docs/07_六大模型决战五千万与孙体写作法则.md) |
 | **2026-08-28 17:55** | **[Issue #410](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/410)+** | 疑似女方反向视角《我的男友孙宇晨》长文罗生门核对、第九届新概念一等奖履历曝光 | [📄 02. 双视角长文罗生门](./docs/02_双视角长文罗生门核对_Issue351.md) |
 | **2026-08-28 12:00** | **[Issue #307](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/307)+** | 四大审计行级别“景甜项目”完整资产清算表出炉（亏损 4920 万 vs 避险 3.6 亿） | [📄 01. 全书财务审计明细](./docs/01_全书财务审计明细表_Kelly完整版.md) |
+| **2025 年底** | 二人确定关系，开启奢华海外行程 | 孙哥豪掷 **3000 万人民币** 现金作为定亲彩礼（打入景国庆、田心爱账户） |
+| **2025-12-21** | A330 私人包机降落特内里费岛 (Tenerife) | 30人包机飞海岛，享受景甜 1 小时修甲服务 |
+| **2026 年初** | 开启海外生殖中心代孕计划 | 支付数百万代孕定金，挑选海外顶级卵子，计划 2027 年生属马宝宝 |
+| **2026 年 3 月** | 女主在蒙太奇拉古纳海滩提出 **5000 万美元** 信托 | 要求设立不可撤销家族信托，且受益人全归女方，“没有五千万不取卵” |
+| **2026 年 8 月** | 孙宇晨起诉追讨 3000 万，并在 GitHub 开源自传 | 代码工程 `my-girlfriend-jingtian-latex` 引爆全网 |
+| **2026-08-26** | **第一阶段：平地惊雷** | 孙宇晨在 GitHub 开源自传小说 `my-girlfriend-jingtian-latex`，币圈与吃瓜群众开始涌入围观（[Issue #1](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/1) ~ [#50](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/50)）。 | 建立本项目，抓取初始小说与基础背景分析。 |
+| **2026-08-27** | **第二阶段：极客与AI狂欢** | 极客调取 ADS-B 雷达实锤 A330 航迹（[Issue #12](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/12)）；Claude 亲自应诉辩词封神（[Issue #300](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/300)）；[Issue #53](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/53)《我恨有钱人》刷屏。 | 搭建局域网与 GitHub Pages 沉浸式深色网页看板。 |
+| **2026-08-28 上午** | **第三阶段：财务清算与大赏** | Issue 突破 300+ 条，财务清算表出炉（亏损 4920 万 vs 避险 3.6 亿），全网开始梳理人物关系与经典名场面。 | 全面扩充 6 大核心板块、财务终审表与神评 Top 15。 |
+| **2026-08-28 下午** | **第四阶段：双视角罗生门与破案** | 疑似女方视角《我的男友孙宇晨》流出（[Issue #351](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/351)）；孙宇晨新概念一等奖履历曝光（[Issue #363](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/363)）；极客开源 `sunge-skills`。 | 梳理 19 年垂直编年史时间轴，新增双视角深度核对。 |
+| **2026-08-28 持续** | **第五阶段：无人值守持续追踪** | 原仓库 Issue 突破 [Issue #410](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/410)+、PR 突破 [Issue #400](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/400)+，上线 `jingtian-monitor` 技能与每 2 小时定时巡检机制。 | 全自动探测增量，捕获 A股“科技涨”谐音梗、Claude 猫娘背锅实录、父子篇《我的爸爸孙宇晨》与 DeepSeek 参战。 |
 | **2025 年底** | 二人确定关系，开启奢华海外行程 | 孙哥豪掷 **3000 万人民币** 现金作为定亲彩礼（打入景国庆、田心爱账户） |
 | **2025-12-21** | A330 私人包机降落特内里费岛 (Tenerife) | 30人包机飞海岛，享受景甜 1 小时修甲服务 |
 | **2026 年初** | 开启海外生殖中心代孕计划 | 支付数百万代孕定金，挑选海外顶级卵子，计划 2027 年生属马宝宝 |
