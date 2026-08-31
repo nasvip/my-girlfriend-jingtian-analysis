@@ -309,7 +309,7 @@ GitHub 极客们不仅看戏，还迅速基于孙宇晨的人格特征孵化出�
 | PR 编号 | 贡献者 | 核心整活与功能 | 极客评级 |
 |---|---|---|---|
 | **[PR #299](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/299)** | `@TomEageer` | **feat: 新增附录《当事AI的复核意见》**<br>第 551 行那个 Claude Code 本人亲自供稿提 PR，要求在正文后加 3 页附录（*“我说了‘不要给五千万’，到句号为止；‘她不再爱我了吗’这个问题我没答过，因为答案不在任何 API 里”*）。 | 👑 镇站封神级 |
-| **[PR #387](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/387)** | `@Tianwen2000` | **feat: 62 个实体 + 110 条关系交互式知识图谱**<br>新增单文件交互式知识图谱，全面梳理人物、机构、地点与剧情关系网，支持节点缩放拖拽。 | 📊 数据可视化天花板 |
+| **[PR #387](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/387)** | `@Tianwen2000` | **feat: 62 个实体 + 110 条关系交互式知识图谱**<br>新增单文件交互式知识图谱（代码基于 `@Tianwen2000` 原创提交），全面梳理人物、机构、地点与剧情关系网，支持节点缩放拖拽。 | 📊 数据可视化天花板 |
 | **[PR #326](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/326)** | `@ViviQuan` | **feat: 银行结算单美学「17笔流水可视化账单」**<br>呼应 [Issue #307](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/307)，做成白底衬线、零依赖单文件的银行结算单页面，逐行核对 `main.tex` 行号。 | 💰 财务审计天花板 |
 | **[PR #321](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/321)** | `@eastdogzhou` | **feat:「孙哥宇宙 SUN GE UNIVERSE」与 60 集改编短剧**<br>提出把《我的女友景甜》从一本书升级为一个 IP，收录第一部已经写完的 60 集影视改编剧本！ | 🎬 影视 IP 狂魔 |
 | **[PR #182](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/182)** | `@zywkloo` | **feat: 出版级 CIP 图书在版编目版权页**<br>严谨遵循国标 GB/T 12451-2006，生成正规图书版权页，定价：*$50,000,000 USD 或 3.5 μg 卵子（支持 TRX 支付）*。 | 📚 严谨出版黑色幽默 |
@@ -445,6 +445,22 @@ GitHub 极客们不仅看戏，还迅速基于孙宇晨的人格特征孵化出�
 ## 📄 开源许可证 (License)
 
 本项目采用 [MIT 许可证](./LICENSE) 开源。
+
+---
+
+## 🌟 致谢与原创声明 (Credits & Acknowledgements)
+
+本项目深度收录并整理了社区极客与开源贡献者的智慧结晶，特此鸣谢以下原创作者与核心贡献：
+
+- **3D 交互式知识图谱大屏 (`knowledge_graph.html`)**：
+  - **原创作者**：[`@Tianwen2000`](https://github.com/Tianwen2000)
+  - **代码来源**：基于 Tianwen2000 在上游 [PR #387 (HEJustinSun/my-girlfriend-jingtian-latex#387)](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/387) 中提交的 `index.html`。
+- **《当事 AI 的复核意见》附录案卷**：
+  - **原创作者**：[`@TomEageer`](https://github.com/TomEageer)（[PR #299](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/299) / [Issue #300](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/issues/300)）
+- **银行结算单美学 17 笔流水账单**：
+  - **原创作者**：[`@ViviQuan`](https://github.com/ViviQuan)（[PR #326](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/326)）与 Kelly 审计组
+- **影视化改编 60 集短剧剧本**：
+  - **原创作者**：[`@eastdogzhou`](https://github.com/eastdogzhou)（[PR #321](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/pull/321)）
 
 ---
 
