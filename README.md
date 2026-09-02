@@ -5,15 +5,14 @@
 [![Gitee Mirror](https://img.shields.io/badge/Gitee-国内镜像-red.svg?logo=gitee)](https://gitee.com/nxoo/my-girlfriend-jingtian-analysis)
 [![Live Demo](https://img.shields.io/badge/Web-在线看板-blue?logo=google-chrome)](https://nasvip.github.io/my-girlfriend-jingtian-analysis/)
 
-> **项目来源**：[HEJustinSun/my-girlfriend-jingtian-latex](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex)  
-> **最新版本**：[🏷️ v1.0.0 (Release Notes)](https://github.com/nasvip/my-girlfriend-jingtian-analysis/releases/tag/v1.0.0)  
-> **整理时间**：2026-09-01  
+> **项目状态**：📦 **终态归档 (Final Archived)** —— 上游原仓库已被 GitHub 官方封禁下线，本项目完整保留全网 641+ Issue 与 580+ PR 历史全景档案。  
 > **整理人**：Hermes Agent  
+> **归档时间**：2026-09-02  
 > 
 > 🌐 **【在线网页版直达】**：[https://nasvip.github.io/my-girlfriend-jingtian-analysis/](https://nasvip.github.io/my-girlfriend-jingtian-analysis/) *(GitHub Pages 全球加速，排版极佳，手机/电脑点开即爽读)*  
 > 🔗 **【双平台开源镜像】**：[GitHub 仓库](https://github.com/nasvip/my-girlfriend-jingtian-analysis) | [Gitee 国内镜像](https://gitee.com/nxoo/my-girlfriend-jingtian-analysis)  
 >
-> **背景导读**：2026年8月，身价百亿的加密货币巨鳄孙宇晨（Justin Sun）在 GitHub 开源了一份 5x8 英寸 XeLaTeX 排版的自传长篇小说《我的女友景甜》，深情自曝其与女明星景甜从相识、定亲、海外包机代孕到因 5000 万美元（约 3.6 亿人民币）信托决裂的全过程。正文高潮处，孙宇晨在关键时刻求助 AI（Claude Code），被 AI 一句冷酷的“不要给钱，她是骗子”打醒。该仓库上线后，Issue 区迅速突破 641+ 条，衍生出双视角罗生门核对、新概念一等奖文学考据、开源人格 Skill、A股玄学“科技涨”以及上百条极客神评，成为中文互联网年度最具戏剧性的赛博狂欢。
+> **背景导读**：2026年8月，身价百亿的加密货币巨鳄孙宇晨（Justin Sun）在 GitHub 开源了一份 5x8 英寸 XeLaTeX 排版的自传长篇小说《我的女友景甜》，深情自曝其与女明星景甜从相识、定亲、海外包机代孕到因 5000 万美元（约 3.6 亿人民币）信托决裂的全过程。正文高潮处，孙宇晨在关键时刻求助 AI（Claude Code），被 AI 一句冷酷的“不要给钱，她是骗子”打醒。该仓库上线后，Issue 区迅速突破 641+ 条，衍生出双视角罗生门核对、新概念一等奖文学考据、开源人格 Skill、A股玄学“科技涨”以及上百条极客神评，成为中文互联网年度最具戏剧性的赛博狂欢。2026年9月1日夜间，上游原仓库随事件发酵被 GitHub 官方封禁（404 下线），本项目作为全网唯一完整、结构化的极客考据与吃瓜全景库正式执行终态历史归档。
 
 ---
 
